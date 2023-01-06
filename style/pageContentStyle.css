@@ -1,0 +1,10 @@
+/* PAGE CONTENT MAIN CONTAINER */
+
+.page-content-wrapper {
+    margin-left: 90px;
+    margin-top: 90px;
+    max-height: fit-content;
+    min-height: 100%;
+    background-color: var(--white);
+    overflow-y: auto;
+}

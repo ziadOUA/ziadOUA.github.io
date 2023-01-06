@@ -1,0 +1,83 @@
+/* STATUSBAR MAIN CONTAINER */
+
+.statusbar-wrapper {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    overflow: auto;
+}
+
+/* REVERSED CORNER */
+
+.reversed-corner {
+    --mask: radial-gradient(10px at 100% 100%,#0000 98%,#000);
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    z-index: 100;
+}
+
+/* STATUSBAR STYLING */
+
+.statusbar-elements-container {
+    display: flex;
+    align-content: center;
+    height: 90px;
+}
+
+/* CLOCK */
+
+.clock-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.clock {
+    color: var(--primary-10);
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 0.9;
+    text-align: center;
+}
+
+/* TITLE */
+
+.title-wrapper {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: var(--primary-10);
+    font-size: 35px;
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: -2px;
+}
+
+/* DATE */
+
+.date-wrapper {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.date {
+    color: var(--primary-10);
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}

@@ -1,0 +1,30 @@
+/* COLORS */
+
+:root {
+    --black: #1A1C1E;
+    --white: #FFFFFF;
+
+    --primary-90: #CDE5FF;
+    --primary-80: #95CCFF;
+    --primary-40: #006399;
+    --primary-10: #001D32;
+
+    --secondary-40: #4D6073;
+    --secondary-90: #D0E5FB;
+    --secondary-10: #081D2D;
+
+    --tertiary-40: #695681;
+    --tertiary-90: #EEDCFF;
+    --tertiary-10: #241339;
+
+    --neutral-variant-90: #DEE3EB;
+}
+
+/* OTHER VARIABLES */
+
+:root {
+    --border-radius-s: 8px;
+    --border-radius-m: 12px;
+    --border-radius-l: 16px;
+    --border-radius-xl: 24px;
+}
