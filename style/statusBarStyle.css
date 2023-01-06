@@ -7,19 +7,7 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    overflow: auto;
-}
-
-/* REVERSED CORNER */
-
-.reversed-corner {
-    --mask: radial-gradient(10px at 100% 100%,#0000 98%,#000);
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
-    position: fixed;
-    height: 200px;
-    width: 200px;
-    z-index: 100;
+    overflow: hidden;
 }
 
 /* STATUSBAR STYLING */
@@ -56,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .title {
