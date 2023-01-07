@@ -1,3 +1,9 @@
+# *08/01/2023* #1
+
+- Added the ability to select the pages through the navigation bar
+- Changed the color of the navigation bar and status bar
+- Small optimizations
+
 # *07/01/2023* #2
 
 - Added 2 "inverted rounded corners"
