@@ -6,7 +6,9 @@
 
     --primary-90: #CDE5FF;
     --primary-80: #95CCFF;
+    --primary-70: #4CB2FF;
     --primary-40: #006399;
+    --primary-20: #003352;
     --primary-10: #001D32;
 
     --secondary-40: #4D6073;
@@ -18,6 +20,8 @@
     --tertiary-10: #241339;
 
     --neutral-variant-90: #DEE3EB;
+    --neutral-variant-80: #C2C7CF;
+    --neutral-variant-10: #171C22;
 }
 
 /* INVERTED ROUNDED CORNERS MASKS */

@@ -21,7 +21,7 @@
     position: fixed;
     width: var(--border-radius-xl);
     height: var(--border-radius-xl);
-    background-color: var(--primary-90);
+    background-color: var(--neutral-variant-90);
 }
 
 .inverted-topleft-corner {

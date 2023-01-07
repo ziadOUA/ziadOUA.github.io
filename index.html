@@ -25,29 +25,29 @@
         <div class="super-wrapper">
             <div class="navbar-wrapper">
                 <div class="navbar-elements-container">
-                    <div class="icon-container">
-                        <a class="home-icon selected" id="home-icon" onclick="">
+                    <div class="icon-container selected" id="home-icon">
+                        <a class="home-icon" onclick="homeSelected()">
                             <span class="material-symbols-rounded">home</span>
                         </a>
                         <div class="label">Home</div>
                     </div>
 
-                    <div class="icon-container">
-                        <a class="repos-icon selected" id="repos-icon" onclick="">
+                    <div class="icon-container" id="repos-icon">
+                        <a class="repos-icon" onclick="reposSelected()">
                             <span class="material-symbols-rounded">code</span>
                         </a>
                         <div class="label">Repos</div>
                     </div>
 
-                    <div class="icon-container">
-                        <a class="info-icon" id="info-icon" onclick="">
+                    <div class="icon-container" id="info-icon">
+                        <a class="info-icon" onclick="infoSelected()">
                             <span class="material-symbols-rounded">info</span>
                         </a>
                         <div class="label">Infos</div>
                     </div>
 
-                    <div class="icon-container">
-                        <a class="contact-icon" id="contact-icon" onclick="">
+                    <div class="icon-container" id="contact-icon">
+                        <a class="contact-icon" onclick="contactSelected()">
                             <span class="material-symbols-rounded">mail</span>
                         </a>
                         <div class="label">Contact</div>
@@ -79,15 +79,9 @@
                     <div class="title-wrapper">
                         <img class="logo" alt="Profile image" src="https://avatars.githubusercontent.com/u/111606433?v=4">
                         <div class="title-elements">
-                            <div class="subtitle">
-                                Hello, my name is
-                            </div>
-                            <div class="title">
-                                ziadOUA
-                            </div>
-                            <div class="subtitle" id="subtitle">
-                                Ziad OUALHADJ
-                            </div>
+                            <div class="subtitle">Hello, my name is</div>
+                            <div class="title">ziadOUA</div>
+                            <div class="subtitle" id="subtitle">Ziad OUALHADJ</div>
                         </div>
                     </div>
                 </div>
@@ -97,6 +91,7 @@
             <script defer type="text/javascript" src="script/date.js"></script>
             <script defer type="text/javascript" src="script/dayProgress.js"></script>
             <script defer type="text/javascript" src="script/subtitleStyling.js"></script>
+            <script defer type="text/javascript" src="script/navButtonsSelection.js"></script>
             <script defer type="text/javascript" src="script/repoFetch.js"></script>
         </div>
     </body>

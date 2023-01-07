@@ -60,7 +60,7 @@ html {
 
 .statusbar-wrapper,
 .navbar-wrapper {
-    background-color: var(--primary-90);
+    background-color: var(--neutral-variant-90);
 }
 
     /* NO USERSELECT */
