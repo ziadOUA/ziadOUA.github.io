@@ -9,6 +9,7 @@
     position: fixed;
     flex-direction: column;
     overflow-y: auto;
+    background-color: var(--primary-90);
 }
 
 /* NAVBAR STYLING */

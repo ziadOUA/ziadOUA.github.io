@@ -20,11 +20,30 @@
     --neutral-variant-90: #DEE3EB;
 }
 
-/* OTHER VARIABLES */
+/* INVERTED ROUNDED CORNERS MASKS */
 
 :root {
-    --border-radius-s: 8px;
-    --border-radius-m: 12px;
-    --border-radius-l: 16px;
-    --border-radius-xl: 24px;
+    --topleft-mask: radial-gradient(var(--border-radius-xl) at 100% 100%,#0000 98%,#000);
+    --topright-mask: radial-gradient(var(--border-radius-xl) at 0 100%,#0000 98%,#000);
+    --logo-mask: url("/res/img/logoMask.svg")
+}
+
+/* OTHER VARIABLES */
+
+    /* BORDER RADIUS SIZES */
+
+:root {
+    --border-radius-s: 12px;
+    --border-radius-m: 16px;
+    --border-radius-l: 24px;
+    --border-radius-xl: 32px;
+}
+
+    /* FONT SIZES */
+
+:root {
+    --font-size-s: 14px;
+    --font-size-m: 22px;
+    --font-size-l: 64px;
+    --font-size-xl: 88px;
 }

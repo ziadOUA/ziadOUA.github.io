@@ -2,21 +2,17 @@ function clock() {
     let date = new Date();
     let hour = date.getHours();
     let minute = date.getMinutes();
+    // let seconds = date.getSeconds()
 
-    hour = update(hour);
-    minute = update(minute);
+    if (hour < 10) {
+        hour = "0" + hour;
+    }
+    if (minute < 10 ) {
+        minute = "0" + minute;
+    }
 
     document.getElementById("clock").innerText = `${hour}\n${minute}`;
-    setTimeout(clock, 60000);
-}
-
-function update(t) {
-    if (t < 10) {
-        return "0" + t;
-    }
-    else {
-        return t;
-    }
+    setTimeout(clock, 1000);
 }
 
 clock();

@@ -8,6 +8,8 @@
     justify-content: space-between;
     position: fixed;
     overflow: hidden;
+    background-color: var(--primary-90);
+    z-index: 2;
 }
 
 /* STATUSBAR STYLING */
@@ -32,14 +34,14 @@
     color: var(--primary-10);
     margin-top: 20px;
     font-size: 32px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono ExtraBold', monospace;
     line-height: 0.9;
     text-align: center;
 }
 
-/* TITLE */
+/* NAME */
 
-.title-wrapper {
+.name-wrapper {
     width: fit-content;
     display: flex;
     align-items: center;
@@ -47,10 +49,10 @@
     margin-right: 20px;
 }
 
-.title {
+.name {
     color: var(--primary-10);
     font-size: 35px;
-    font-family: 'Lexend Zetta', sans-serif;
+    font-family: 'Lexend Zetta Light', sans-serif;
     letter-spacing: -2px;
 }
 

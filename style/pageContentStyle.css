@@ -3,8 +3,36 @@
 .page-content-wrapper {
     margin-left: 90px;
     margin-top: 90px;
-    max-height: fit-content;
-    min-height: 100%;
-    background-color: var(--white);
-    overflow-y: auto;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: calc(100vh - 90px);
+}
+
+.page-content-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* INVERTED ROUNDED CORNERS */
+
+.inverted-topleft-corner,
+.inverted-topright-corner {
+    margin-top: 90px;
+    position: fixed;
+    width: var(--border-radius-xl);
+    height: var(--border-radius-xl);
+    background-color: var(--primary-90);
+}
+
+.inverted-topleft-corner {
+    margin-left: 90px;
+    -webkit-mask: var(--topleft-mask);
+    mask: var(--topleft-mask);
+}
+
+.inverted-topright-corner {
+    margin-left: auto;
+    right: 0;
+    -webkit-mask: var(--topright-mask);
+    mask: var(--topright-mask);
 }
