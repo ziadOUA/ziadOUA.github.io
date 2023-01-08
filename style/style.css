@@ -1,4 +1,5 @@
 @import "variables.css";
+@import "animations.css";
 @import "navBarStyle.css";
 @import "statusBarStyle.css";
 @import "pageContentStyle.css";
@@ -7,14 +8,23 @@
 @import "repoListStyle.css";
 
 body {
-    margin: 0;
+    background-color: var(--white);
+}
+
+.visible {
+    display: block;
+    animation-name: fade-in;
+    animation-duration: 2500ms;
+}
+
+.hidden {
+    display: none;
 }
 
 body,
 html {
-    /*width: 100%;*/
-    /*height: 100%;*/
     overflow-y: hidden;
+    margin: 0;
 }
 
 .super-wrapper {

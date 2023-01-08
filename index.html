@@ -20,8 +20,7 @@
         <script src="https://gitlist.himdek.com/GitHubList.js"></script>
     </head>
 
-    <body>
-
+    <body class="body hidden light_mode" id="body" onload="bodyVisible()">
         <div class="super-wrapper">
             <div class="navbar-wrapper">
                 <div class="navbar-elements-container">
@@ -52,6 +51,12 @@
                         </a>
                         <div class="label">Contact</div>
                     </div>
+                </div>
+
+                <div class="change-theme-wrapper">
+                    <a class="change-theme" onclick="themeToggle()">
+                        <span class="material-symbols-rounded" id="theme-icon">dark_mode</span>
+                    </a>
                 </div>
             </div>
 
@@ -93,6 +98,8 @@
             <script defer type="text/javascript" src="script/subtitleStyling.js"></script>
             <script defer type="text/javascript" src="script/navButtonsSelection.js"></script>
             <script defer type="text/javascript" src="script/repoFetch.js"></script>
+            <script defer type="text/javascript" src="script/loadFix.js"></script>
+            <script type="text/javascript" src="script/themeToggler.js"></script>
         </div>
     </body>
 </html>

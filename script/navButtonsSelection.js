@@ -8,6 +8,7 @@ const contactIcon = document.getElementById("contact-icon");
 // const mobileContactIcon = document.getElementById("mobile-contact-icon");
 
 // const homeContent = document.getElementById("home-content")
+// const reposContent = document.getElementById('repos-content')
 // const infoContent = document.getElementById("info-content")
 // const contactContent = document.getElementById("contact-content")
 
