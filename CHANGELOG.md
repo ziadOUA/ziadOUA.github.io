@@ -1,3 +1,7 @@
+# *08/01/2023* Hotfix 1
+
+- Fixed an overflow problem in the navigation bar
+
 # *08/01/2023* #2
 
 - Added a fade-in effect when the page is loaded
