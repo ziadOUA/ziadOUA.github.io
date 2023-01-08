@@ -1,3 +1,10 @@
+# *08/01/2023* #2
+
+- Added a fade-in effect when the page is loaded
+- Made the body color 'var(--white)'
+- Started the implementation of a dark theme
+- Other fixes
+
 # *08/01/2023* #1
 
 - Added the ability to select the pages through the navigation bar
