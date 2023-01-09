@@ -8,7 +8,7 @@
 @import "repoListStyle.css";
 
 body {
-    background-color: var(--white);
+    background-color: var(--page-bg);
 }
 
 .visible {
@@ -34,44 +34,7 @@ html {
     height: fit-content;
 }
 
-/* DAY PROGRESS */
-
-.day-progress-text-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    background-color: var(--tertiary-90);
-}
-
-.progress-value {
-    color: var(--tertiary-10);
-    font-size: 25px;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-/* DAY PROGRESS-BAR */
-
-.day-progress-bar-container {
-    background-color: var(--tertiary-90);
-}
-
-.progress-bar {
-    display: flex;
-    align-items: center;
-    justify-content : center;
-    border-radius: 10px;
-    background-color : var(--tertiary-10);
-    height : 20px;
-    background-size: 1rem 1rem;
-}
-
 /* GLOBAL STYLES */
-
-.statusbar-wrapper,
-.navbar-wrapper {
-    background-color: var(--neutral-variant-90);
-}
 
     /* NO USERSELECT */
 
@@ -81,6 +44,11 @@ html {
 .date,
 .name,
 .title,
-.subtitle {
+.subtitle,
+img {
     user-select: none;
+}
+
+* {
+    transition: background-color, color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);;
 }

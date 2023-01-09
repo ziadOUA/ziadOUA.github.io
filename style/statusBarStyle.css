@@ -8,7 +8,7 @@
     justify-content: space-between;
     position: fixed;
     overflow: hidden;
-    background-color: var(--neutral-variant-90);
+    background-color: var(--navgroup-bg);
     z-index: 2;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .clock {
-    color: var(--neutral-variant-10);
+    color: var(--on-navgroup);
     margin-top: 20px;
     font-size: 32px;
     font-family: 'JetBrains Mono ExtraBold', monospace;
@@ -50,7 +50,7 @@
 }
 
 .name {
-    color: var(--neutral-variant-10);
+    color: var(--on-navgroup);
     font-size: 35px;
     font-family: 'Lexend Zetta Light', sans-serif;
     letter-spacing: -2px;
@@ -68,7 +68,7 @@
 }
 
 .date {
-    color: var(--neutral-variant-10);
+    color: var(--on-navgroup);
     font-size: 20px;
     font-family: 'JetBrains Mono', monospace;
 }

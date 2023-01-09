@@ -21,7 +21,8 @@
     position: fixed;
     width: var(--border-radius-xl);
     height: var(--border-radius-xl);
-    background-color: var(--neutral-variant-90);
+    background-color: var(--navgroup-bg);
+    z-index: 2;
 }
 
 .inverted-topleft-corner {

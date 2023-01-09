@@ -9,7 +9,7 @@
     position: fixed;
     flex-direction: column;
     overflow: hidden;
-    background-color: var(--neutral-variant-90);
+    background-color: var(--navgroup-bg);
 }
 
 /* NAVBAR STYLING */
@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     width: 90px;
+    gap: 20px;
     margin-top: 100px;
     margin-bottom: auto;
 }
@@ -25,7 +26,6 @@
 /* NAVBAR ICONS STYLING */
 
 .icon-container {
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -50,11 +50,11 @@
     /* SELECTED STYLING */
 
 .selected > a {
-    background-color: var(--primary-80);
+    background-color: var(--selected-navgroup);
 }
 
 .selected .material-symbols-rounded {
-    color: var(--primary-20) !important;
+    color: var(--on-selected-navgroup) !important;
     font-variation-settings: 'FILL' 1;
 }
 
@@ -78,7 +78,7 @@
 
     .icon-container:not(.selected) > a:hover,
     .change-theme:hover {
-        background: var(--neutral-variant-80);
+        background: var(--hover-navgroup);
     }
 
     .icon-container:not(.selected) > a:hover .material-symbols-rounded{
@@ -95,7 +95,7 @@
 .navbar-elements-container .material-symbols-rounded,
 .label,
 .change-theme .material-symbols-rounded {
-    color: var(--neutral-variant-10);
+    color: var(--on-navgroup);
 }
 
 /* CHANGE THEME BUTTON */

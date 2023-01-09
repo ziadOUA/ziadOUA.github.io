@@ -11,8 +11,8 @@ function updateUI() {
     const barItem = document.getElementById('progress-bar');
     barItem.style.width = `${percent}%`;
 
-    const counterItem = document.getElementById('progress-value');
-    counterItem.textContent = `Today's progress : ${percent}%`;
+    // const counterItem = document.getElementById('progress-value');
+    // counterItem.textContent = `Today's progress : ${percent}%`;
 }
 
 setInterval(function() {
