@@ -1,3 +1,11 @@
+# *09/01/2032* #1
+
+- **Fully implemented the dark mode with** a smooth transition between the two themes
+- Fixed a problem regarding the inverted rounded corners
+- Added a bunch more colors
+- Renamed the "themeToggler" JS file to "themeToggle" because even though "Toggler" is valid in Scrabble, it is not a valid English word.
+- Other optimizations
+
 # *08/01/2023* Hotfix 1
 
 - Fixed an overflow problem in the navigation bar
@@ -19,7 +27,7 @@
 
 - Added 2 "inverted rounded corners"
 - Renamed ".title" to ".name"
-- Added the first element of the home page
+- Added the[README.md](README.md) first element of the home page
 - Fixed some scrolling issues
 - Made the scrollbar invisible
 - Added color to the status bar and navigation bar
