@@ -1,4 +1,11 @@
-# *09/01/2032* #1
+# *10/01/2023* #1
+
+- Fixed font problems on mobile devices
+- Made the clock only update every 5 seconds instead of every second (since the seconds aren't displayed, this won't affect the time)
+- Other optimizations
+- Fixed some CHANGELOG typos (we aren't yet 2032)
+
+# *09/01/2023* #1
 
 - **Fully implemented the dark mode with** a smooth transition between the two themes
 - Fixed a problem regarding the inverted rounded corners
@@ -6,7 +13,7 @@
 - Renamed the "themeToggler" JS file to "themeToggle" because even though "Toggler" is valid in Scrabble, it is not a valid English word.
 - Other optimizations
 
-# *08/01/2023* Hotfix 1
+# *08/01/2023* Hotfix #1
 
 - Fixed an overflow problem in the navigation bar
 
