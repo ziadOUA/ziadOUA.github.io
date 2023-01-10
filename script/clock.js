@@ -12,7 +12,7 @@ function clock() {
     }
 
     document.getElementById("clock").innerText = `${hour}\n${minute}`;
-    setTimeout(clock, 1000);
+    setTimeout(clock, 5000);
 }
 
 clock();

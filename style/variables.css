@@ -64,7 +64,7 @@
 :root {
     --topleft-mask: radial-gradient(var(--border-radius-xl) at 100% 100%,#0000 98%,#000);
     --topright-mask: radial-gradient(var(--border-radius-xl) at 0 100%,#0000 98%,#000);
-    --logo-mask: url("/res/img/logoMask.svg")
+    --logo-mask: url("../res/img/logoMask.svg");
 }
 
 /* OTHER VARIABLES */

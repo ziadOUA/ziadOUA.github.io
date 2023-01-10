@@ -34,8 +34,9 @@
     color: var(--on-navgroup);
     margin-top: 20px;
     font-size: 32px;
-    font-family: 'JetBrains Mono ExtraBold', monospace;
+    font-family: 'JetBrains Mono', monospace;
     line-height: 0.9;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -52,7 +53,8 @@
 .name {
     color: var(--on-navgroup);
     font-size: 35px;
-    font-family: 'Lexend Zetta Light', sans-serif;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-weight: 200;
     letter-spacing: -2px;
 }
 

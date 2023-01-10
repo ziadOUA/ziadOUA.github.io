@@ -69,10 +69,14 @@
 
 /* HOVER */
 
-@media(hover) {
+.icon-container > a,
+.change-theme {
+    transition: all 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+@media(pointer: fine) {
     .icon-container > a,
     .change-theme {
-        transition: all 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
         cursor: pointer;
     }
 
