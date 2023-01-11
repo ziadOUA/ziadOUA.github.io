@@ -1,3 +1,12 @@
+# *11/01/2023* #1
+
+- Started to make the website responsive
+- Renamed "page-theme" to "theme"
+- Replaced the margin of ".page-content-wrapper" to a padding to be able to see the blur of the mobile navigation bar
+- Added a subtle animation when the title of the home page is resized
+- Fixed some conflicts caused by the unused (yet) "repoListStyle.css"
+- Other optimizations and fixes
+
 # *10/01/2023* #1
 
 - Fixed font problems on mobile devices
