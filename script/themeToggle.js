@@ -1,11 +1,11 @@
 function lightTheme() {
     document.getElementById("theme-icon").textContent = "dark_mode"
-    document.documentElement.setAttribute('page-theme', 'light');
+    document.documentElement.setAttribute('theme', 'light');
 }
 
 function darkTheme() {
     document.getElementById("theme-icon").textContent = "light_mode"
-    document.documentElement.setAttribute('page-theme', 'dark');
+    document.documentElement.setAttribute('theme', 'dark');
 }
 
 (function() {

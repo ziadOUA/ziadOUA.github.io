@@ -20,7 +20,7 @@
         <script src="https://gitlist.himdek.com/GitHubList.js"></script>
     </head>
 
-    <body class="body hidden light_mode" id="body" onload="bodyVisible()">
+    <body class="body hidden" id="body" onload="bodyVisible()">
         <div class="super-wrapper">
             <div class="navbar-wrapper">
                 <div class="navbar-elements-container">
@@ -58,6 +58,16 @@
                         <span class="material-symbols-rounded" id="theme-icon">dark_mode</span>
                     </a>
                 </div>
+            </div>
+
+            <div class="navbar-mobile-wrapper" id="navbar-mobile">
+                <a class="hamburger-menu-wrapper" onclick="//OPEN NAV PANEL">
+                    <span class="material-symbols-rounded">menu</span>
+                </a>
+                <a class="header-wrapper" onclick="homeSelected()">
+                    <img class="header-logo" alt="Profile image" src="https://avatars.githubusercontent.com/u/111606433?v=4">
+                    <p class="header-text">My Portfolio</p>
+                </a>
             </div>
 
             <div class="statusbar-wrapper">

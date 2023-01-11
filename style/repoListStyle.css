@@ -31,24 +31,26 @@ li {
     margin-block-start: 1em;
 }
 
-.stats, span, a {
+.stats,
+.box span,
+.box a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-span {
+.box span {
     margin-right: 10px;
 }
 
-circle {
+.box circle {
     stroke: none;
     cy: 9;
     cx: 9;
     r: 9;
 }
 
-svg {
+.box svg {
     height: 18px;
     width: 18px;
     margin-right: 5px !important;

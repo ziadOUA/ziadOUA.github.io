@@ -1,8 +1,7 @@
 /* PAGE CONTENT MAIN CONTAINER */
 
 .page-content-wrapper {
-    margin-left: 90px;
-    margin-top: 90px;
+    padding: 90px 0 0 90px;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;

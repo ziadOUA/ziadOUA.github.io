@@ -4,6 +4,10 @@
     --black: #1A1C1E;
     --white: #FFFFFF;
 
+    --transparent-white: #FFFFFFCC;
+    --transparent-grey: #7F766B33;
+    --transparent-black: #1A1C1E33;
+
     --primary-90: #CDE5FF;
     --primary-80: #95CCFF;
     --primary-70: #4CB2FF;
@@ -32,9 +36,11 @@
 
 /* LIGHT THEME */
 
-[page-theme="light"] {
+[theme="light"] {
+    --standard-text: var(--black);
     --page-bg: var(--white);
     --navgroup-bg: var(--neutral-variant-90);
+    --mobile-navbar-bg: var(--transparent-white);
     --on-navgroup: var(--neutral-variant-10);
     --selected-navgroup: var(--primary-80);
     --on-selected-navgroup: var(--primary-20);
@@ -46,9 +52,11 @@
 
 /* DARK THEME */
 
-[page-theme="dark"] {
+[theme="dark"] {
+    --standard-text: var(--white);
     --page-bg: var(--black);
     --navgroup-bg: var(--neutral-variant-30);
+    --mobile-navbar-bg: var(--transparent-black);
     --on-navgroup: var(--neutral-variant-90);
     --selected-navgroup: var(--primary-30);
     --on-selected-navgroup: var(--primary-90);
@@ -83,6 +91,8 @@
 :root {
     --font-size-s: 14px;
     --font-size-m: 22px;
-    --font-size-l: 64px;
-    --font-size-xl: 88px;
+    --font-size-l: 48px;
+    --font-size-xl: 64px;
+
+    --font-size-header: 18px;
 }
