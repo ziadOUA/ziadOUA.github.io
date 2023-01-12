@@ -1,3 +1,7 @@
+# *12/01/2023* Hotfix #1
+
+- Fixed the cursor not working properly
+
 # *12/01/2023* #1
 
 - Added a custom cursor (I might change it in the future)
