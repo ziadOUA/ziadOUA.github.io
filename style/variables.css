@@ -26,6 +26,8 @@
     --tertiary-90: #EEDCFF;
     --tertiary-20: #3A2850;
     --tertiary-10: #241339;
+    --transparent-tertiary-80: #D4BDEEDD;
+    --transparent-tertiary-20: #3A2850DD;
 
     --neutral-variant-90: #DEE3EB;
     --neutral-variant-80: #C2C7CF;
@@ -38,6 +40,8 @@
 
 [theme="light"] {
     --standard-text: var(--black);
+    --cursor: var(--tertiary-20);
+    --hover-cursor: var(--transparent-tertiary-20);
     --page-bg: var(--white);
     --navgroup-bg: var(--neutral-variant-90);
     --mobile-navbar-bg: var(--transparent-white);
@@ -54,6 +58,8 @@
 
 [theme="dark"] {
     --standard-text: var(--white);
+    --cursor: var(--tertiary-80);
+    --hover-cursor: var(--transparent-tertiary-80);;
     --page-bg: var(--black);
     --navgroup-bg: var(--neutral-variant-30);
     --mobile-navbar-bg: var(--transparent-black);

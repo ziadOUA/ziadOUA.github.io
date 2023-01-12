@@ -1,0 +1,28 @@
+/* CURSOR DEFAULT */
+
+.cursor {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--cursor);
+    border-radius: 50%;
+    z-index: 3;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: height 200ms, width 200ms, background-color 200ms;
+}
+
+/* CURSOR HOVER */
+
+.hover {
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--hover-cursor);
+}
+
+/* CURSOR CLICK */
+
+.click {
+    height: 1.2rem;
+    width: 1.2rem;
+}

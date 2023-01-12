@@ -75,11 +75,6 @@
 }
 
 @media(pointer: fine) {
-    .icon-container > a,
-    .change-theme {
-        cursor: pointer;
-    }
-
     .icon-container:not(.selected) > a:hover,
     .change-theme:hover {
         background: var(--hover-navgroup);
@@ -112,7 +107,7 @@
 
 .change-theme {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     height: 100%;
     border-radius: 100px;

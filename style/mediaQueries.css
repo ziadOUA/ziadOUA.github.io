@@ -34,10 +34,17 @@
 
     .page-content-wrapper {
         padding: 60px 0 0 0 !important;
+        height: calc(100vh - 60px);
     }
 
     .inverted-topright-corner,
     .inverted-topleft-corner {
+        display: none;
+    }
+}
+
+@media (any-pointer: coarse) {
+    .cursor {
         display: none;
     }
 }
