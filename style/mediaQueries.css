@@ -43,8 +43,8 @@
     }
 }
 
-@media (any-pointer: coarse) {
+@media (pointer: fine) {
     .cursor {
-        display: none;
+        display: block;
     }
 }
