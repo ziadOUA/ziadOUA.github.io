@@ -1,3 +1,9 @@
+# *12/01/2023* #1
+
+- Added a custom cursor (I might change it in the future)
+- Fixed a problem regarding the height of ".page-content"
+- Fixed a problem where the icon of the theme change button wasn't vertically centered
+
 # *11/01/2023* #1
 
 - Started to make the website responsive
