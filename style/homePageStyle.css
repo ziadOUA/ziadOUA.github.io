@@ -27,12 +27,21 @@
 
     /* LOGO */
 
-.logo {
+.logo-wrapper {
     height: 150px;
+    width: 150px;
     mask: var(--logo-mask);
     -webkit-mask: var(--logo-mask);
     mask-size: contain;
     -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo {
+    height: inherit;
+    transform: rotate(0deg);
 }
 
     /* TITLE ELEMENTS BG */

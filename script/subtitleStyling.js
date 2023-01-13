@@ -7,17 +7,17 @@ function on() {
     subtitle.innerText = "Ziad OUALHADJ_";
 }
 
-function off () {
+function off() {
     const subtitle = document.getElementById('subtitle');
     subtitle.innerText = "Ziad OUALHADJ" + '\xa0';
 }
 
-function update() {
+function updateSubtitleStyling() {
     on();
     sleep(1000).then(off);
 }
 
 setInterval(function() {
-    update();
+    updateSubtitleStyling();
     return arguments.callee;
 }(), 2000);

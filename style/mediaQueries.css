@@ -16,9 +16,13 @@
         font-size: var(--font-size-s);
     }
 
-    .logo,
+    .logo-wrapper,
     .title-elements {
         height: 130px;
+    }
+
+    .logo-wrapper {
+        width: 130px;
     }
 }
 
