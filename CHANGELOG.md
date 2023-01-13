@@ -1,3 +1,8 @@
+# *13/01/2023* Update #1
+
+- Animated the logo in the homepage's title
+- Refactored some JS functions
+
 # *12/01/2023* Hotfix #1
 
 - Fixed the cursor not working properly
