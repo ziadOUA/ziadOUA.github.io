@@ -1,3 +1,14 @@
+# *14/01/2023* #2
+
+- Optimized the page loading
+- Fixed the *flash of un-styled text* (FOUT) that occurred when loading the page
+- The fade-in is now just a transition (instead of a CSS animation)
+- Fixed the theme transition not working properly on some elements
+- MAde the hamburger icon change weight when hovered
+- Made the logo stop rotating when hovered
+- The cursor is now only hidden when the page is loaded
+- Other optimizations
+
 # *14/01/2023* #1
 
 - Made the logo rotation CSS based, instead of JS
