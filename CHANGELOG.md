@@ -1,9 +1,9 @@
-# *14/01/2023* Update #1
+# *14/01/2023* #1
 
 - Made the logo rotation CSS based, instead of JS
 - Removed a useless commented line
 
-# *13/01/2023* Update #1
+# *13/01/2023* #1
 
 - Animated the logo in the homepage's title
 - Refactored some JS functions
