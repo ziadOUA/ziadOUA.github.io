@@ -37,11 +37,24 @@
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     overflow: hidden;
+    animation-name: logo-mask-rotation;
 }
 
 .logo {
     height: inherit;
-    transform: rotate(0deg);
+    border-radius: 50%;
+    animation-name: logo-rotate-negation;
+}
+
+.logo-wrapper,
+.logo {
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
 }
 
     /* TITLE ELEMENTS BG */
