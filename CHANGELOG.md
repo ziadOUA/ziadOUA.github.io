@@ -63,7 +63,7 @@
 
 - Added 2 "inverted rounded corners"
 - Renamed ".title" to ".name"
-- Added the[README.md](README.md) first element of the home page
+- Added the first element of the home page
 - Fixed some scrolling issues
 - Made the scrollbar invisible
 - Added color to the status bar and navigation bar
