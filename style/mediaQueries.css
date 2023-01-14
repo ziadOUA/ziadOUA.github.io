@@ -21,8 +21,10 @@
         height: 130px;
     }
 
-    .logo-wrapper {
+    .logo-wrapper,
+    .logo {
         width: 130px;
+        height: 130px;
     }
 }
 

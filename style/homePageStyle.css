@@ -41,7 +41,8 @@
 }
 
 .logo {
-    height: inherit;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     animation-name: logo-rotate-negation;
 }
@@ -55,6 +56,13 @@
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
+}
+
+@media(pointer: fine) {
+    .logo-wrapper:hover,
+    .logo-wrapper:hover .logo {
+        animation-play-state: paused;
+    }
 }
 
     /* TITLE ELEMENTS BG */

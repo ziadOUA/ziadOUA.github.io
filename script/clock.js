@@ -11,7 +11,7 @@ function clock() {
         minute = "0" + minute;
     }
 
-    document.getElementById("clock").innerText = `${hour}\n${minute}`;
+    document.querySelector(".clock").innerText = `${hour}\n${minute}`;
     setTimeout(clock, 5000);
 }
 

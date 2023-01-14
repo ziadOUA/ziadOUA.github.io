@@ -1,18 +1,9 @@
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-        display: none;
-    }
-
-    100% {opacity: 1;}
-}
-
 @keyframes logo-mask-rotation {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
 
 @keyframes logo-rotate-negation {
-    0% {transform: rotate(360deg);}
-    100% {transform: rotate(0deg);}
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
 }

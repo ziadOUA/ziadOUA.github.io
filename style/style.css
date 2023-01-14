@@ -12,20 +12,12 @@
 
 body {
     background-color: var(--page-bg);
+    transition: opacity 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
+                background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 a:link, .mobile-label:link {
     text-decoration: none !important;
-}
-
-.visible {
-    display: block;
-    animation-name: fade-in;
-    animation-duration: 2500ms;
-}
-
-.hidden {
-    display: none;
 }
 
 body,
@@ -56,9 +48,11 @@ img {
     user-select: none;
 }
 
+    /* MISCELLANEOUS */
+
 * {
-    transition: background-color, color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
-    cursor: none;
+    transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
+                color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 .title,
@@ -67,7 +61,11 @@ img {
 }
 
 .title-wrapper,
+.logo-wrapper,
 .logo,
 .title-elements {
-    transition: width, height 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: width 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
+                height 500ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
+                background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
+                color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }

@@ -41,6 +41,7 @@
 
 .header-logo {
     height: 30px;
+    width: 30px;
     mask: var(--logo-mask);
     -webkit-mask: var(--logo-mask);
     mask-size: contain;
@@ -58,5 +59,9 @@
     .hamburger-menu-wrapper:hover,
     .header-wrapper:hover{
         background-color: var(--transparent-grey);
+    }
+
+    .hamburger-menu-wrapper:hover .material-symbols-rounded {
+        font-variation-settings: 'wght' 800;
     }
 }

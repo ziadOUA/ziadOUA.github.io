@@ -2,13 +2,13 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+const subtitle = document.querySelector('#subtitle');
+
 function on() {
-    const subtitle = document.getElementById('subtitle');
     subtitle.innerText = "Ziad OUALHADJ_";
 }
 
 function off() {
-    const subtitle = document.getElementById('subtitle');
     subtitle.innerText = "Ziad OUALHADJ" + '\xa0';
 }
 

@@ -1,4 +1,6 @@
-function bodyVisible() {
-    const body = document.getElementById('body');
-    body.className = 'body visible';
+function bodyLoaded() {
+    console.log('/! Page ready !/');
+    const body = document.querySelector('body');
+    body.style.opacity = '1';
+    body.style.cursor = 'none';
 }
