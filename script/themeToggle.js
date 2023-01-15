@@ -24,20 +24,22 @@ function darkTheme() {
         }
     }
 
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        favicon32x32.setAttribute('href', 'res/favicon/light/favicon-32x32.png')
-        favicon16x16.setAttribute('href', 'res/favicon/light/favicon-16x16.png')
-    }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        favicon32x32.setAttribute('href', 'res/favicon/dark/favicon-32x32.png')
-        favicon16x16.setAttribute('href', 'res/favicon/dark/favicon-16x16.png')
-    }
-
     if (onPageLoad === "light_mode") {
         lightTheme()
     }
     if (onPageLoad === "dark_mode") {
         darkTheme()
+    }
+})();
+
+(function () {
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        favicon32x32.setAttribute('href', 'res/favicon/light/favicon-32x32.png')
+        favicon16x16.setAttribute('href', 'res/favicon/light/favicon-16x16.png')
+    }
+    else {
+        favicon32x32.setAttribute('href', 'res/favicon/dark/favicon-32x32.png')
+        favicon16x16.setAttribute('href', 'res/favicon/dark/favicon-16x16.png')
     }
 })();
 
