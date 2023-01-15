@@ -1,3 +1,8 @@
+# *15/01/2023* #1
+
+- Added a favicon for both light & dark themes
+- Fixed the header text being user-selectable
+
 # *14/01/2023* #2
 
 - Optimized the page loading
@@ -89,4 +94,3 @@
 - Added a hover effect on the material symbols
 - Removed useless CSS
 - Added right margin to ".title"
-- 
