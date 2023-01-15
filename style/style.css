@@ -44,6 +44,7 @@ html {
 .name,
 .title,
 .subtitle,
+.header-text,
 img {
     user-select: none;
 }
