@@ -1,3 +1,7 @@
+# *15/01/2023* Hotfix #1
+
+- Fixed a glitch when the theme is loaded
+
 # *15/01/2023* #1
 
 - Added a favicon for both light & dark themes
