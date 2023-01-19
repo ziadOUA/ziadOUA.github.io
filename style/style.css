@@ -33,6 +33,17 @@ html {
     height: fit-content;
 }
 
+.hidden {
+    display: none !important;
+}
+
+.home-page,
+.repos-page,
+.info-page,
+.contact-page {
+    transition: opacity 200ms linear;
+}
+
 /* GLOBAL STYLES */
 
     /* NO USERSELECT */
