@@ -1,3 +1,8 @@
+# *19/01/2023* #1
+
+- Changed the "name" to "Portfolio"
+- Started preparation for the other parts of the website
+
 # *15/01/2023* Hotfix #1
 
 - Fixed a glitch when the theme is loaded
