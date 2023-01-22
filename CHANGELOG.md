@@ -1,3 +1,10 @@
+# *22/01/2023* #1
+
+- Removed a debugging line in `loadFix.js`
+- Made most sizes / paddings / margins relative (using *rem*s)
+- Greatly optimized the `date.js` script
+- Optimized some CSS
+
 # *19/01/2023* #1
 
 - Changed the "name" to "Portfolio"
