@@ -1,11 +1,11 @@
 @media (max-width: 1100px) {
     .title-wrapper {
-        height: 300px;
+        height: 30rem;
     }
 
     .title {
         font-size: var(--font-size-l);
-        letter-spacing: -2px;
+        letter-spacing: -0.2rem;
     }
 
     .subtitle:nth-child(n + 1) {
@@ -17,14 +17,14 @@
     }
 
     .logo-wrapper,
-    .title-elements {
-        height: 130px;
+    .title-elements,
+    .logo {
+        height: 13rem;
     }
 
     .logo-wrapper,
     .logo {
-        width: 130px;
-        height: 130px;
+        width: 13rem;
     }
 }
 
@@ -39,8 +39,8 @@
     }
 
     .page-content-wrapper {
-        padding: 60px 0 0 0 !important;
-        height: calc(100vh - 60px);
+        padding: 6rem 0 0 0 !important;
+        height: calc(100vh - 6rem);
     }
 
     .inverted-topright-corner,

@@ -10,6 +10,10 @@
 @import "repoListStyle.css";
 @import "mediaQueries.css";
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: var(--page-bg);
     transition: opacity 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
@@ -37,7 +41,7 @@ html {
     display: none !important;
 }
 
-.home-page,
+.home,
 .repos-page,
 .info-page,
 .contact-page {

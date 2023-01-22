@@ -2,8 +2,8 @@
 
 .cursor {
     display: none;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
     background-color: var(--cursor);
     border-radius: 50%;
     z-index: 3;
@@ -16,14 +16,14 @@
 /* CURSOR HOVER */
 
 .hover {
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: var(--hover-cursor);
 }
 
 /* CURSOR CLICK */
 
 .click {
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.7rem;
+    width: 1.7rem;
 }

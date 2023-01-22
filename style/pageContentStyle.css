@@ -1,22 +1,28 @@
 /* PAGE CONTENT MAIN CONTAINER */
 
 .page-content-wrapper {
-    padding: 90px 0 0 90px;
+    padding: 9em 0 0 9em;
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 9em);
 }
 
 .page-content-wrapper::-webkit-scrollbar {
     display: none;
 }
 
+/* DEFAULT STYLES FOR ".page-content-wrapper"'S CHILDREN */
+
+.page {
+    padding: 1rem 1rem 5rem;
+}
+
 /* INVERTED ROUNDED CORNERS */
 
 .inverted-topleft-corner,
 .inverted-topright-corner {
-    margin-top: 90px;
+    margin-top: 9rem;
     position: fixed;
     width: var(--border-radius-xl);
     height: var(--border-radius-xl);
@@ -25,7 +31,7 @@
 }
 
 .inverted-topleft-corner {
-    margin-left: 90px;
+    margin-left: 9rem;
     -webkit-mask: var(--topleft-mask);
     mask: var(--topleft-mask);
 }
