@@ -27,3 +27,11 @@
     height: 1.7rem;
     width: 1.7rem;
 }
+
+/* CHECK IF USER USES A COMPUTER TO ADD THE CUSTOM CURSOR */
+
+@media (pointer: fine) {
+    .cursor {
+        display: block;
+    }
+}

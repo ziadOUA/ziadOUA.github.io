@@ -1,21 +1,23 @@
-const homeIcon = document.getElementById("home-icon");
-// const mobileHomeIcon = document.getElementById("mobile-home-icon");
-const reposIcon = document.getElementById("repos-icon");
-// const mobileReposIcon = document.getElementById("mobile-repos-icon");
-const infoIcon = document.getElementById("info-icon");
-// const mobileInfoIcon = document.getElementById("mobile-info-icon");
-const contactIcon = document.getElementById("contact-icon");
-// const mobileContactIcon = document.getElementById("mobile-contact-icon");
+const homeIcon = document.querySelector("#home-icon");
+// const mobileHomeIcon = document.querySelector("mobile-home-icon");
+const reposIcon = document.querySelector("#repos-icon");
+// const mobileReposIcon = document.querySelector("mobile-repos-icon");
+const infoIcon = document.querySelector("#info-icon");
+// const mobileInfoIcon = document.querySelector("mobile-info-icon");
+const contactIcon = document.querySelector("#contact-icon");
+// const mobileContactIcon = document.querySelector("mobile-contact-icon");
+const topHeader = document.querySelector('.name')
 
-const homeContent = document.getElementById("home-page")
-const reposContent = document.getElementById('repos-page')
-const infoContent = document.getElementById("info-page")
-const contactContent = document.getElementById("contact-page")
+const homeContent = document.querySelector("#home-page")
+const reposContent = document.querySelector('#repos-page')
+const infoContent = document.querySelector("#info-page")
+const contactContent = document.querySelector("#contact-page")
 
 function homeSelectedStyling() {
     homeIcon.classList.add("selected");
     // mobileHomeIcon.classList.add("selected");
     homeContent.className = "home page visible";
+    topHeader.innerHTML = 'Home'
 }
 
 function homeUnselectedStyling() {
@@ -28,6 +30,7 @@ function infoSelectedStyling() {
     infoIcon.classList.add("selected");
     // mobileInfoIcon.classList.add("selected");
     infoContent.className = "info page visible";
+    topHeader.innerHTML = 'Informations'
 }
 
 function infoUnselectedStyling() {
@@ -40,6 +43,7 @@ function reposSelectedStyling() {
     reposIcon.classList.add("selected");
     // mobileReposIcon.classList.add("selected");
     reposContent.className = "repos page visible";
+    topHeader.innerHTML = 'Repositories'
 }
 
 function reposUnselectedStyling() {
@@ -52,6 +56,7 @@ function contactSelectedStyling() {
     contactIcon.classList.add("selected");
     // mobileContactIcon.classList.add("selected");
     contactContent.className = "contact page visible";
+    topHeader.innerHTML = 'Contact'
 }
 
 function contactUnselectedStyling() {

@@ -60,11 +60,12 @@ html {
 .title,
 .subtitle,
 .header-text,
+.featured-projects-title,
 img {
     user-select: none;
 }
 
-    /* MISCELLANEOUS */
+    /* TRANSITIONS */
 
 * {
     transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),

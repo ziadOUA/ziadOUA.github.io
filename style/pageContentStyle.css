@@ -16,6 +16,9 @@
 
 .page {
     padding: 1rem 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* INVERTED ROUNDED CORNERS */

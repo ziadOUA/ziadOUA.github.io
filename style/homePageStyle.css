@@ -11,12 +11,12 @@
 .title-wrapper {
     border-radius: var(--border-radius-l);
     background-image: url("https://images.unsplash.com/photo-1557938615-3e9e68aff5c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-    height: 500px;
+    height: 50rem;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
     width: 100%;
     transition: filter 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
@@ -28,8 +28,8 @@
     /* LOGO */
 
 .logo-wrapper {
-    height: 150px;
-    width: 150px;
+    height: 15rem;
+    width: 15rem;
     mask: var(--logo-mask);
     -webkit-mask: var(--logo-mask);
     mask-size: contain;
@@ -41,8 +41,8 @@
 }
 
 .logo {
-    height: 150px;
-    width: 150px;
+    height: 15rem;
+    width: 15rem;
     border-radius: 50%;
     animation-name: logo-rotate-negation;
 }
@@ -69,14 +69,14 @@
 
 .title-elements {
     background-color: var(--title-bg);
-    border-radius: 200px;
+    border-radius: 100vw;
     width: fit-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 15rem;
 }
 
     /* TITLE TEXT */
@@ -87,7 +87,7 @@
     font-weight: 900;
     text-align: center;
     line-height: 1;
-    margin: 0 50px 0 50px;
+    margin: 0 5rem 0 5rem;
 }
 
     /* SUBTITLE */
@@ -100,12 +100,12 @@
 .subtitle:nth-child(n + 1) {
     font-family: 'Lexend Deca', sans-serif;
     font-size: var(--font-size-m);
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
 }
 
 .subtitle:nth-child(n + 3) {
     font-size: var(--font-size-s);
-    margin-top: 7px;
+    margin-top: .7rem;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 600;
 }
@@ -114,4 +114,71 @@
 
 .title-elements > div {
     color: var(--on-title);
+}
+
+/* FEATURED PROJECTS */
+
+.featured-projects-wrapper {
+    width: 100%;
+    max-width: 120rem;
+}
+
+.featured-projects-title {
+    margin: 7.5rem 0 2rem 5rem;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 800;
+    font-size: var(--font-size-l);
+    color: var(--featured-projects-title);
+}
+
+.featured-projects {
+    --min: 32rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(var(--min), auto);
+    gap: 1rem;
+}
+
+    /* FEATURED PROJECTS ELEMENTS */
+
+.featured-project-element {
+    height: 100%;
+    background-color: var(--featured-project-card);
+    border-radius: var(--border-radius-l);
+}
+
+.featured-project-illustration {
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.featured-project-informations {
+    margin: 2rem;
+    display: grid;
+    align-self: start;
+    gap: .8rem;
+}
+
+.featured-project-name,
+.featured-project-desc {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+}
+
+.featured-project-name {
+    font-size: var(--font-size-m);
+}
+
+.featured-project-desc {
+    font-size: var(--font-size-s);
+}
+
+@media(pointer: fine) {
+    .featured-project-element:hover {
+        background-color: var(--featured-project-card-hover);
+    }
 }

@@ -44,6 +44,9 @@
     --hover-cursor: var(--transparent-tertiary-20);
     --page-bg: var(--white);
     --navgroup-bg: var(--neutral-variant-90);
+    --featured-projects-title: var(--black);
+    --featured-project-card: var(--neutral-variant-90);
+    --featured-project-card-hover: var(--primary-80);
     --mobile-navbar-bg: var(--transparent-white);
     --on-navgroup: var(--neutral-variant-10);
     --selected-navgroup: var(--primary-80);
@@ -59,9 +62,12 @@
 [theme="dark"] {
     --standard-text: var(--white);
     --cursor: var(--tertiary-80);
-    --hover-cursor: var(--transparent-tertiary-80);;
+    --hover-cursor: var(--transparent-tertiary-80);
     --page-bg: var(--black);
     --navgroup-bg: var(--neutral-variant-30);
+    --featured-projects-title: var(--white);
+    --featured-project-card: var(--neutral-variant-30);
+    --featured-project-card-hover: var(--primary-30);
     --mobile-navbar-bg: var(--transparent-black);
     --on-navgroup: var(--neutral-variant-90);
     --selected-navgroup: var(--primary-30);
