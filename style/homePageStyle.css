@@ -128,7 +128,7 @@
     font-family: 'JetBrains Mono', sans-serif;
     font-weight: 800;
     font-size: var(--font-size-l);
-    color: var(--featured-projects-title);
+    color: var(--standard-text);
 }
 
 .featured-projects {
@@ -167,6 +167,7 @@
 .featured-project-desc {
     font-family: 'Lexend Deca', sans-serif;
     margin: 0;
+    color: var(--standard-text);
 }
 
 .featured-project-name {
