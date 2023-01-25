@@ -1,3 +1,14 @@
+# *25/01/2023* #1
+
+- Started adding the "*featured projects*" section
+- Optimized some JS
+- Moved the media query for the custom cursor in `customCursor.css`
+- Changed some comments in the CSS
+- Made the "*name*" be the name of the page section currently in
+- Made some other values relative (using *rem*s)
+- Made the "*page*" attribute a `display: flex;`
+- Changed the `max-width` of the "*mobile-mode*" media query to 950 pixels
+
 # *22/01/2023* #1
 
 - Removed a debugging line in `loadFix.js`
