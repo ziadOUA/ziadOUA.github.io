@@ -1,3 +1,7 @@
+# *25/01/2023* Hotfix #1
+
+- Fixed a color problem regarding the featured projects title, name and description
+
 # *25/01/2023* #1
 
 - Started adding the "*featured projects*" section
