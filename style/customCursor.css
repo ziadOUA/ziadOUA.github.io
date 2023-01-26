@@ -4,7 +4,7 @@
     display: none;
     height: 2rem;
     width: 2rem;
-    background-color: var(--cursor);
+    background: linear-gradient(135deg, var(--cursor), var(--tertiary-40));
     border-radius: 50%;
     z-index: 3;
     position: fixed;

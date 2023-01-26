@@ -13,11 +13,33 @@ const reposContent = document.querySelector('#repos-page')
 const infoContent = document.querySelector("#info-page")
 const contactContent = document.querySelector("#contact-page")
 
+if (localStorage.getItem("page-section") === null){
+    localStorage.setItem('page-section', 'home');
+}
+
+let sectionOnLoad = localStorage.getItem("page-section");
+
+if (sectionOnLoad === "home") {
+    homeSelected();
+}
+
+if (sectionOnLoad === "repos") {
+    reposSelected();
+}
+
+if (sectionOnLoad === "info") {
+    infoSelected();
+}
+
+if (sectionOnLoad === "contact") {
+    contactSelected();
+}
+
 function homeSelectedStyling() {
     homeIcon.classList.add("selected");
     // mobileHomeIcon.classList.add("selected");
     homeContent.className = "home page visible";
-    topHeader.innerHTML = 'Home'
+    topHeader.innerHTML = 'Home';
 }
 
 function homeUnselectedStyling() {
@@ -30,7 +52,7 @@ function infoSelectedStyling() {
     infoIcon.classList.add("selected");
     // mobileInfoIcon.classList.add("selected");
     infoContent.className = "info page visible";
-    topHeader.innerHTML = 'Informations'
+    topHeader.innerHTML = 'Informations';
 }
 
 function infoUnselectedStyling() {
@@ -43,7 +65,7 @@ function reposSelectedStyling() {
     reposIcon.classList.add("selected");
     // mobileReposIcon.classList.add("selected");
     reposContent.className = "repos page visible";
-    topHeader.innerHTML = 'Repositories'
+    topHeader.innerHTML = 'Repositories';
 }
 
 function reposUnselectedStyling() {
@@ -56,7 +78,7 @@ function contactSelectedStyling() {
     contactIcon.classList.add("selected");
     // mobileContactIcon.classList.add("selected");
     contactContent.className = "contact page visible";
-    topHeader.innerHTML = 'Contact'
+    topHeader.innerHTML = 'Contact';
 }
 
 function contactUnselectedStyling() {
@@ -67,36 +89,40 @@ function contactUnselectedStyling() {
 
 function homeSelected() {
     if (homeIcon.className === "icon-container") {
-        homeSelectedStyling()
-        infoUnselectedStyling()
-        reposUnselectedStyling()
-        contactUnselectedStyling()
+        homeSelectedStyling();
+        infoUnselectedStyling();
+        reposUnselectedStyling();
+        contactUnselectedStyling();
+        localStorage.setItem('page-section', 'home');
     }
 }
 
 function reposSelected() {
     if (reposIcon.className === "icon-container") {
-        reposSelectedStyling()
-        homeUnselectedStyling()
-        infoUnselectedStyling()
-        contactUnselectedStyling()
+        reposSelectedStyling();
+        homeUnselectedStyling();
+        infoUnselectedStyling();
+        contactUnselectedStyling();
+        localStorage.setItem('page-section', 'repos');
     }
 }
 
 function infoSelected() {
     if (infoIcon.className === "icon-container") {
-        infoSelectedStyling()
-        homeUnselectedStyling()
-        reposUnselectedStyling()
-        contactUnselectedStyling()
+        infoSelectedStyling();
+        homeUnselectedStyling();
+        reposUnselectedStyling();
+        contactUnselectedStyling();
+        localStorage.setItem('page-section', 'info');
     }
 }
 
 function contactSelected() {
     if (contactIcon.className === "icon-container") {
-        contactSelectedStyling()
-        homeUnselectedStyling()
-        reposUnselectedStyling()
-        infoUnselectedStyling()
+        contactSelectedStyling();
+        homeUnselectedStyling();
+        reposUnselectedStyling();
+        infoUnselectedStyling();
+        localStorage.setItem('page-section', 'contact');
     }
 }
