@@ -1,3 +1,9 @@
+# *26/01/2023* #1
+
+- Made the website remember the selected section
+- Changed the favicon
+- The cursor's background is now a gradient
+
 # *25/01/2023* Hotfix #1
 
 - Fixed a color problem regarding the featured projects title, name and description
