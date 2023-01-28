@@ -1,3 +1,13 @@
+# *28/01/2023* #2
+
+- Greatly improved the accessibility
+- The `.navbar-wrapper` is now a `<nav>` element
+- Added `onkeydown` events on the navigation and theme buttons
+- Added a border radius to the link buttons (featured projects)
+- Changed the illustrations of project 2 and 3 
+- The featured project name has now a shadow on hover
+- Various other optimizations and fixes
+
 # *28/01/2023* #1
 
 - Added the 3 projects
