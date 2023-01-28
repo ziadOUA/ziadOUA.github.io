@@ -24,28 +24,28 @@
             <nav class="navbar-wrapper">
                 <div class="navbar-elements-container">
                     <div class="icon-container selected" id="home-icon">
-                        <a tabindex="0" class="home-icon" onclick="homeSelected()" onkeydown="homeSelected()">
+                        <a tabindex="0" class="home-icon" onclick="homeSelected()" onkeydown="if(event.key === 'Enter'){homeSelected()}">
                             <span class="material-symbols-rounded">home</span>
                         </a>
                         <div class="label">Home</div>
                     </div>
 
                     <div class="icon-container" id="repos-icon">
-                        <a tabindex="0" class="repos-icon" onclick="reposSelected()" onkeydown="reposSelected()">
+                        <a tabindex="0" class="repos-icon" onclick="reposSelected()" onkeydown="if(event.key === 'Enter'){reposSelected()}">
                             <span class="material-symbols-rounded">code</span>
                         </a>
                         <div class="label">Repos</div>
                     </div>
 
                     <div class="icon-container" id="info-icon">
-                        <a tabindex="0" class="info-icon" onclick="infoSelected()" onkeydown="infoSelected()">
+                        <a tabindex="0" class="info-icon" onclick="infoSelected()" onkeydown="if(event.key === 'Enter'){infoSelected()}">
                             <span class="material-symbols-rounded">info</span>
                         </a>
                         <div class="label">Infos</div>
                     </div>
 
                     <div class="icon-container" id="contact-icon">
-                        <a tabindex="0" class="contact-icon" onclick="contactSelected()" onkeydown="contactSelected()">
+                        <a tabindex="0" class="contact-icon" onclick="contactSelected()" onkeydown="if(event.key === 'Enter'){contactSelected()}">
                             <span class="material-symbols-rounded">mail</span>
                         </a>
                         <div class="label">Contact</div>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="change-theme-wrapper">
-                    <a tabindex="0" class="change-theme" onclick="themeToggle()" onkeydown="themeToggle()">
+                    <a tabindex="0" class="change-theme" onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
                         <span class="material-symbols-rounded" id="theme-icon">dark_mode</span>
                     </a>
                 </div>
