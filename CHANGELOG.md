@@ -1,3 +1,8 @@
+# *28/01/2023* #1
+
+- Added the 3 projects
+- Made every project element a `display: grid;` to make the links bar stay at the bottom
+
 # *26/01/2023* #1
 
 - Made the website remember the selected section
