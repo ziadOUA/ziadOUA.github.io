@@ -21,31 +21,31 @@
     <body style="opacity: 0;" onload="bodyLoaded()">
         <div class="cursor"></div>
         <div class="super-wrapper">
-            <div class="navbar-wrapper">
+            <nav class="navbar-wrapper">
                 <div class="navbar-elements-container">
                     <div class="icon-container selected" id="home-icon">
-                        <a class="home-icon" onclick="homeSelected()">
+                        <a tabindex="0" class="home-icon" onclick="homeSelected()" onkeydown="homeSelected()">
                             <span class="material-symbols-rounded">home</span>
                         </a>
                         <div class="label">Home</div>
                     </div>
 
                     <div class="icon-container" id="repos-icon">
-                        <a class="repos-icon" onclick="reposSelected()">
+                        <a tabindex="0" class="repos-icon" onclick="reposSelected()" onkeydown="reposSelected()">
                             <span class="material-symbols-rounded">code</span>
                         </a>
                         <div class="label">Repos</div>
                     </div>
 
                     <div class="icon-container" id="info-icon">
-                        <a class="info-icon" onclick="infoSelected()">
+                        <a tabindex="0" class="info-icon" onclick="infoSelected()" onkeydown="infoSelected()">
                             <span class="material-symbols-rounded">info</span>
                         </a>
                         <div class="label">Infos</div>
                     </div>
 
                     <div class="icon-container" id="contact-icon">
-                        <a class="contact-icon" onclick="contactSelected()">
+                        <a tabindex="0" class="contact-icon" onclick="contactSelected()" onkeydown="contactSelected()">
                             <span class="material-symbols-rounded">mail</span>
                         </a>
                         <div class="label">Contact</div>
@@ -53,11 +53,11 @@
                 </div>
 
                 <div class="change-theme-wrapper">
-                    <a class="change-theme" onclick="themeToggle()">
+                    <a tabindex="0" class="change-theme" onclick="themeToggle()" onkeydown="themeToggle()">
                         <span class="material-symbols-rounded" id="theme-icon">dark_mode</span>
                     </a>
                 </div>
-            </div>
+            </nav>
 
             <div class="navbar-mobile-wrapper" id="navbar-mobile">
                 <a class="hamburger-menu-wrapper" onclick="//OPEN NAV PANEL" >
@@ -111,13 +111,13 @@
                                     <p class="featured-project-desc">🏅 A Material You inspired markdown badge collection. </p>
                                 </div>
                                 <div class="featured-project-links-wrapper">
-                                    <a href="https://github.com/ziadOUA/m3-Markdown-Badges">
+                                    <a tabindex="0" href="https://github.com/ziadOUA/m3-Markdown-Badges">
                                         <svg class="featured-project-link" width="31" height="30" viewBox="0 0 31 30" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2668 0C6.82466 0 0 6.87497 0 15.3802C0 22.179 4.37279 27.9339 10.439 29.9708C11.1975 30.1239 11.4753 29.6399 11.4753 29.2327C11.4753 28.8761 11.4503 27.6539 11.4503 26.3805C7.20341 27.2974 6.31904 24.5471 6.31904 24.5471C5.63654 22.7646 4.62529 22.3065 4.62529 22.3065C3.2353 21.3643 4.72654 21.3643 4.72654 21.3643C6.26841 21.4662 7.07747 22.943 7.07747 22.943C8.44215 25.2855 10.6412 24.6236 11.5259 24.2161C11.6521 23.223 12.0568 22.5355 12.4865 22.1537C9.09934 21.7971 5.5356 20.473 5.5356 14.5653C5.5356 12.8846 6.14185 11.5096 7.10247 10.4403C6.95091 10.0584 6.41997 8.47934 7.25435 6.36591C7.25435 6.36591 8.5434 5.95841 11.45 7.94466C12.6944 7.60799 13.9777 7.43672 15.2668 7.43528C16.5559 7.43528 17.8699 7.61372 19.0834 7.94466C21.9902 5.95841 23.2793 6.36591 23.2793 6.36591C24.1137 8.47934 23.5824 10.0584 23.4308 10.4403C24.4168 11.5096 24.998 12.8846 24.998 14.5653C24.998 20.473 21.4343 21.7715 18.0218 22.1537C18.578 22.6374 19.058 23.554 19.058 25.0055C19.058 27.068 19.033 28.7233 19.033 29.2324C19.033 29.6399 19.3112 30.1239 20.0693 29.9711C26.1355 27.9336 30.5083 22.179 30.5083 15.3802C30.5333 6.87497 23.6837 0 15.2668 0Z"/>
                                         </svg>
                                     </a>
 
-                                    <a href="https:ziadoua.github.io/m3-Markdown-Badges">
+                                    <a tabindex="0" href="https:ziadoua.github.io/m3-Markdown-Badges">
                                         <svg class="featured-project-link" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M15 30C12.9 30 10.9375 29.6062 9.1125 28.8187C7.2875 28.0312 5.7 26.9625 4.35 25.6125C3 24.2625 1.9375 22.6687 1.1625 20.8312C0.3875 18.9937 0 17.025 0 14.925C0 12.825 0.3875 10.8688 1.1625 9.05625C1.9375 7.24375 3 5.6625 4.35 4.3125C5.7 2.9625 7.2875 1.90625 9.1125 1.14375C10.9375 0.38125 12.9 0 15 0C17.1 0 19.0625 0.38125 20.8875 1.14375C22.7125 1.90625 24.3 2.9625 25.65 4.3125C27 5.6625 28.0625 7.24375 28.8375 9.05625C29.6125 10.8688 30 12.825 30 14.925C30 17.025 29.6125 18.9937 28.8375 20.8312C28.0625 22.6687 27 24.2625 25.65 25.6125C24.3 26.9625 22.7125 28.0312 20.8875 28.8187C19.0625 29.6062 17.1 30 15 30ZM15 27.825C15.875 26.925 16.6062 25.8937 17.1937 24.7312C17.7812 23.5687 18.2625 22.1875 18.6375 20.5875H11.4C11.75 22.0875 12.2188 23.4375 12.8063 24.6375C13.3938 25.8375 14.125 26.9 15 27.825ZM11.8125 27.375C11.1875 26.425 10.65 25.4 10.2 24.3C9.75 23.2 9.375 21.9625 9.075 20.5875H3.45C4.4 22.3625 5.5 23.7563 6.75 24.7688C8 25.7813 9.6875 26.65 11.8125 27.375ZM18.225 27.3375C20.025 26.7625 21.6438 25.9 23.0813 24.75C24.5188 23.6 25.675 22.2125 26.55 20.5875H20.9625C20.6375 21.9375 20.2562 23.1625 19.8187 24.2625C19.3812 25.3625 18.85 26.3875 18.225 27.3375ZM2.7 18.3375H8.6625C8.5875 17.6625 8.54375 17.0562 8.53125 16.5187C8.51875 15.9812 8.5125 15.45 8.5125 14.925C8.5125 14.3 8.525 13.7437 8.55 13.2562C8.575 12.7687 8.625 12.225 8.7 11.625H2.7C2.525 12.225 2.40625 12.7625 2.34375 13.2375C2.28125 13.7125 2.25 14.275 2.25 14.925C2.25 15.575 2.28125 16.1563 2.34375 16.6688C2.40625 17.1813 2.525 17.7375 2.7 18.3375ZM10.9875 18.3375H19.05C19.15 17.5625 19.2125 16.9312 19.2375 16.4437C19.2625 15.9562 19.275 15.45 19.275 14.925C19.275 14.425 19.2625 13.9438 19.2375 13.4813C19.2125 13.0188 19.15 12.4 19.05 11.625H10.9875C10.8875 12.4 10.825 13.0188 10.8 13.4813C10.775 13.9438 10.7625 14.425 10.7625 14.925C10.7625 15.45 10.775 15.9562 10.8 16.4437C10.825 16.9312 10.8875 17.5625 10.9875 18.3375ZM21.3 18.3375H27.3C27.475 17.7375 27.5937 17.1813 27.6562 16.6688C27.7188 16.1563 27.75 15.575 27.75 14.925C27.75 14.275 27.7188 13.7125 27.6562 13.2375C27.5937 12.7625 27.475 12.225 27.3 11.625H21.3375C21.4125 12.5 21.4625 13.1687 21.4875 13.6312C21.5125 14.0937 21.525 14.525 21.525 14.925C21.525 15.475 21.5063 15.9938 21.4688 16.4813C21.4312 16.9688 21.375 17.5875 21.3 18.3375ZM20.925 9.375H26.55C25.725 7.65 24.5937 6.2125 23.1562 5.0625C21.7188 3.9125 20.0625 3.1 18.1875 2.625C18.8125 3.55 19.3438 4.55 19.7812 5.625C20.2187 6.7 20.6 7.95 20.925 9.375ZM11.4 9.375H18.675C18.4 8.05 17.9375 6.76875 17.2875 5.53125C16.6375 4.29375 15.875 3.2 15 2.25C14.2 2.925 13.525 3.8125 12.975 4.9125C12.425 6.0125 11.9 7.5 11.4 9.375ZM3.45 9.375H9.1125C9.3875 8.025 9.7375 6.81875 10.1625 5.75625C10.5875 4.69375 11.125 3.6625 11.775 2.6625C9.9 3.1375 8.2625 3.9375 6.8625 5.0625C5.4625 6.1875 4.325 7.625 3.45 9.375Z"/>
                                         </svg>
@@ -126,13 +126,13 @@
                             </div>
 
                             <div class="featured-project-element">
-                                <div class="featured-project-illustration" style="background-image: url('res/img/project2.png'); background-position: top;"></div>
+                                <div class="featured-project-illustration" style="background-image: url('res/img/project2.png')"></div>
                                 <div class="featured-project-informations">
                                     <p class="featured-project-name">Badger</p>
                                     <p class="featured-project-desc">💻 A simple python program that makes adding badges from m3-Markdown-Badges easier. </p>
                                 </div>
                                 <div class="featured-project-links-wrapper">
-                                    <a href="https://github.com/ziadOUA/Badger">
+                                    <a tabindex="0" href="https://github.com/ziadOUA/Badger">
                                         <svg class="featured-project-link" width="31" height="30" viewBox="0 0 31 30" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2668 0C6.82466 0 0 6.87497 0 15.3802C0 22.179 4.37279 27.9339 10.439 29.9708C11.1975 30.1239 11.4753 29.6399 11.4753 29.2327C11.4753 28.8761 11.4503 27.6539 11.4503 26.3805C7.20341 27.2974 6.31904 24.5471 6.31904 24.5471C5.63654 22.7646 4.62529 22.3065 4.62529 22.3065C3.2353 21.3643 4.72654 21.3643 4.72654 21.3643C6.26841 21.4662 7.07747 22.943 7.07747 22.943C8.44215 25.2855 10.6412 24.6236 11.5259 24.2161C11.6521 23.223 12.0568 22.5355 12.4865 22.1537C9.09934 21.7971 5.5356 20.473 5.5356 14.5653C5.5356 12.8846 6.14185 11.5096 7.10247 10.4403C6.95091 10.0584 6.41997 8.47934 7.25435 6.36591C7.25435 6.36591 8.5434 5.95841 11.45 7.94466C12.6944 7.60799 13.9777 7.43672 15.2668 7.43528C16.5559 7.43528 17.8699 7.61372 19.0834 7.94466C21.9902 5.95841 23.2793 6.36591 23.2793 6.36591C24.1137 8.47934 23.5824 10.0584 23.4308 10.4403C24.4168 11.5096 24.998 12.8846 24.998 14.5653C24.998 20.473 21.4343 21.7715 18.0218 22.1537C18.578 22.6374 19.058 23.554 19.058 25.0055C19.058 27.068 19.033 28.7233 19.033 29.2324C19.033 29.6399 19.3112 30.1239 20.0693 29.9711C26.1355 27.9336 30.5083 22.179 30.5083 15.3802C30.5333 6.87497 23.6837 0 15.2668 0Z"/>
                                         </svg>
@@ -141,13 +141,13 @@
                             </div>
 
                             <div class="featured-project-element">
-                                <div class="featured-project-illustration" style="background-image: url('res/img/project3.png'); background-position: top;"></div>
+                                <div class="featured-project-illustration" style="background-image: url('res/img/project3.png')"></div>
                                 <div class="featured-project-informations">
                                     <p class="featured-project-name">URL to IP</p>
                                     <p class="featured-project-desc">🌐 URL to IP converts any URL into an IP, whether through a URL or a .txt file. </p>
                                 </div>
                                 <div class="featured-project-links-wrapper">
-                                    <a href="https://github.com/ziadOUA/URL-to-IP">
+                                    <a tabindex="0" href="https://github.com/ziadOUA/URL-to-IP">
                                         <svg class="featured-project-link" width="31" height="30" viewBox="0 0 31 30" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2668 0C6.82466 0 0 6.87497 0 15.3802C0 22.179 4.37279 27.9339 10.439 29.9708C11.1975 30.1239 11.4753 29.6399 11.4753 29.2327C11.4753 28.8761 11.4503 27.6539 11.4503 26.3805C7.20341 27.2974 6.31904 24.5471 6.31904 24.5471C5.63654 22.7646 4.62529 22.3065 4.62529 22.3065C3.2353 21.3643 4.72654 21.3643 4.72654 21.3643C6.26841 21.4662 7.07747 22.943 7.07747 22.943C8.44215 25.2855 10.6412 24.6236 11.5259 24.2161C11.6521 23.223 12.0568 22.5355 12.4865 22.1537C9.09934 21.7971 5.5356 20.473 5.5356 14.5653C5.5356 12.8846 6.14185 11.5096 7.10247 10.4403C6.95091 10.0584 6.41997 8.47934 7.25435 6.36591C7.25435 6.36591 8.5434 5.95841 11.45 7.94466C12.6944 7.60799 13.9777 7.43672 15.2668 7.43528C16.5559 7.43528 17.8699 7.61372 19.0834 7.94466C21.9902 5.95841 23.2793 6.36591 23.2793 6.36591C24.1137 8.47934 23.5824 10.0584 23.4308 10.4403C24.4168 11.5096 24.998 12.8846 24.998 14.5653C24.998 20.473 21.4343 21.7715 18.0218 22.1537C18.578 22.6374 19.058 23.554 19.058 25.0055C19.058 27.068 19.033 28.7233 19.033 29.2324C19.033 29.6399 19.3112 30.1239 20.0693 29.9711C26.1355 27.9336 30.5083 22.179 30.5083 15.3802C30.5333 6.87497 23.6837 0 15.2668 0Z"/>
                                         </svg>

@@ -189,6 +189,10 @@
     height: 3rem;
 }
 
+.featured-project-links-wrapper a {
+    border-radius: 20%;
+}
+
 @media(pointer: fine) {
     .featured-project-element:hover {
         background-color: var(--featured-project-card-hover);
@@ -199,10 +203,14 @@
     }
 
     .featured-project-element:hover .featured-project-name {
-        font-weight: 600;
+        text-shadow: 0 0 .2rem var(--featured-project-infos-hover);
     }
 
     .featured-project-element:hover .featured-project-link {
         fill: var(--featured-project-link-hover);
+    }
+
+    .featured-project-element:hover a {
+        outline-color: var(--featured-project-link-hover);
     }
 }
