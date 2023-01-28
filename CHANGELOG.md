@@ -1,3 +1,7 @@
+# *28/01/2023* Hotfix #1
+
+- Fixed an accessibility problem
+
 # *28/01/2023* #2
 
 - Greatly improved the accessibility
