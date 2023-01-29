@@ -1,3 +1,8 @@
+# *29/01/2023* #1
+
+- Added the titles for the other sections of the page
+- Optimized some CSS
+
 # *28/01/2023* Hotfix #1
 
 - Fixed an accessibility problem
