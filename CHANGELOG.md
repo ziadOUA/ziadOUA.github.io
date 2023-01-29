@@ -1,3 +1,7 @@
+# *29/01/2023* #2
+
+- Optimized the performance regarding the titles
+
 # *29/01/2023* #1
 
 - Added the titles for the other sections of the page
