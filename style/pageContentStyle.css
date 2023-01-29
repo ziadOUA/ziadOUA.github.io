@@ -12,6 +12,24 @@
     display: none;
 }
 
+/* TITLE */
+
+.title-wrapper {
+    border-radius: var(--border-radius-l);
+    height: 50rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    transition: filter 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+}
+
+[theme="dark"] .title-wrapper  {
+    filter: brightness(80%);
+}
+
 /* DEFAULT STYLES FOR ".page-content-wrapper"'S CHILDREN */
 
 .page {

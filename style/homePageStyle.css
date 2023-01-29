@@ -1,24 +1,5 @@
 /* TITLE */
 
-    /* WRAPPER */
-
-.title-wrapper {
-    border-radius: var(--border-radius-l);
-    background-image: url("https://images.unsplash.com/photo-1557938615-3e9e68aff5c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
-    height: 50rem;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    width: 100%;
-    transition: filter 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
-}
-
-[theme="dark"] .title-wrapper  {
-    filter: brightness(80%);
-}
-
     /* LOGO */
 
 .logo-wrapper {
