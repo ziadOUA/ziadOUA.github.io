@@ -1,3 +1,7 @@
+# *30/01/2023*
+
+- Small modifications
+
 # *29/01/2023* #2
 
 - Optimized the performance regarding the titles
