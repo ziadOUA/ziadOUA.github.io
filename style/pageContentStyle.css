@@ -18,6 +18,8 @@
     border-radius: var(--border-radius-l);
     height: 50rem;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
