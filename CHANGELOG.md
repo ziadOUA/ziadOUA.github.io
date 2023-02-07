@@ -1,3 +1,9 @@
+# *07/02/2023* #1
+
+- Made the title text / subtitle font size relative
+- Added a subtitle to the other titles (such as repositories and informations)
+- Other CSS fixes
+
 # *30/01/2023* #1
 
 - Small modifications
