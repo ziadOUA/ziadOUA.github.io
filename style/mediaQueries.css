@@ -9,17 +9,12 @@
         height: 30rem;
     }
 
+    .title-elements {
+        font-size: .75rem;
+    }
+
     .title {
-        font-size: var(--font-size-l);
         letter-spacing: -0.2rem;
-    }
-
-    .subtitle:nth-child(n + 1) {
-        font-size: var(--font-size-m);
-    }
-
-    .subtitle:nth-child(n + 3) {
-        font-size: var(--font-size-s);
     }
 
     .logo-wrapper,
@@ -58,5 +53,25 @@
 @media (max-width: 720px) {
     .featured-projects {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .page {
+        padding: 0;
+    }
+
+    .logo-wrapper {
+        display: none;
+    }
+
+    .title-wrapper {
+        height: 20rem;
+        border-radius: 0;
+    }
+
+    .title-elements {
+        font-size: .6rem;
     }
 }
