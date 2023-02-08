@@ -1,3 +1,8 @@
+# *08/01/2023* #2
+
+- Blocked scrolling when navigation panel is opened
+- Changed cursor transition speed
+
 # *08/02/2023* #1
 
 - Started to implement the mobile navigation panel
