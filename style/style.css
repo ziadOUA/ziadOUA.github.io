@@ -31,6 +31,10 @@ html {
     margin: 0;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .super-wrapper {
     display: flex;
     flex-direction: column;

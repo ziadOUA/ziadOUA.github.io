@@ -1,3 +1,5 @@
+const pageContentWrapper = document.querySelector('.page-content-wrapper');
+
 const homeIcon = document.querySelector("#home-icon");
 const mobileHomeIcon = document.querySelector("#mobile-home-icon");
 const reposIcon = document.querySelector("#repos-icon");
@@ -132,11 +134,13 @@ function contactSelected() {
 function openNavPanel() {
     if (mobileNavPanel.className === "mobile-panel-wrapper") {
         mobileNavPanel.classList.add("visible");
+        pageContentWrapper.classList.add("no-scroll");
     }
 }
 
 function closeNavPanel() {
     if (mobileNavPanel.className === "mobile-panel-wrapper visible") {
         mobileNavPanel.classList.remove("visible");
+        pageContentWrapper.classList.remove("no-scroll");
     }
 }

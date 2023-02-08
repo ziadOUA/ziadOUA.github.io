@@ -10,7 +10,7 @@
     position: fixed;
     pointer-events: none;
     transform: translate(-50%, -50%);
-    transition: height 100ms ease, width 100ms ease, background-color 200ms;
+    transition: height 200ms ease, width 200ms ease, background-color 200ms;
 }
 
 /* CURSOR HOVER */
