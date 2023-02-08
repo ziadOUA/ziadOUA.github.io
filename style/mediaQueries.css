@@ -34,6 +34,10 @@
         display: flex;
     }
 
+    .mobile-panel-wrapper.visible {
+        display: block;
+    }
+
     .statusbar-wrapper,
     .navbar-wrapper {
         display: none;
@@ -57,7 +61,6 @@
 }
 
 @media (max-width: 640px) {
-
     .page {
         padding: 0;
     }

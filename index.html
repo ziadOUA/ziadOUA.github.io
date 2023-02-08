@@ -60,13 +60,43 @@
             </nav>
 
             <div class="navbar-mobile-wrapper" id="navbar-mobile">
-                <a class="hamburger-menu-wrapper" onclick="//OPEN NAV PANEL" >
+                <a class="hamburger-menu-wrapper" onclick="openNavPanel()">
                     <span class="material-symbols-rounded">menu</span>
                 </a>
                 <a class="header-wrapper" onclick="homeSelected()">
                     <img class="header-logo" alt="Profile image" src="https://avatars.githubusercontent.com/u/111606433?v=4">
                     <p class="header-text">My Portfolio</p>
                 </a>
+            </div>
+            
+            <div class="mobile-panel-wrapper">
+                <div class="close-menu-wrapper">
+                    <a class="close-menu-button" onclick="closeNavPanel()">
+                        <span class="material-symbols-rounded">menu_open</span>
+                    </a>
+                </div>
+
+                <div class="mobile-panel-contents">
+                    <a class="mobile-icon-container selected" id="mobile-home-icon" tabindex="0" onclick="homeSelected()" onkeydown="if(event.key === 'Enter'){homeSelected()}">
+                        <span class="material-symbols-rounded">home</span>
+                        <div class="mobile-label">Home</div>
+                    </a>
+
+                    <a class="mobile-icon-container" id="mobile-repos-icon" tabindex="0" onclick="reposSelected()" onkeydown="if(event.key === 'Enter'){reposSelected()}">
+                        <span class="material-symbols-rounded">code</span>
+                        <div class="mobile-label">Repositories</div>
+                    </a>
+
+                    <a class="mobile-icon-container" id="mobile-info-icon" tabindex="0" onclick="infoSelected()" onkeydown="if(event.key === 'Enter'){infoSelected()}">
+                        <span class="material-symbols-rounded">info</span>
+                        <div class="mobile-label">Informations</div>
+                    </a>
+
+                    <a class="mobile-icon-container" id="mobile-contact-icon" tabindex="0" onclick="contactSelected()" onkeydown="if(event.key === 'Enter'){contactSelected()}">
+                        <span class="material-symbols-rounded">mail</span>
+                        <div class="mobile-label">Contact</div>
+                    </a>
+                </div>
             </div>
 
             <div class="statusbar-wrapper">
