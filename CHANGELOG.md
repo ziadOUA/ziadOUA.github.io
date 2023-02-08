@@ -1,3 +1,9 @@
+# *08/02/2023* #1
+
+- Started to implement the mobile navigation panel
+- Changed the cursor's size
+- Various other changes
+
 # *07/02/2023* #1
 
 - Made the title text / subtitle font size relative
