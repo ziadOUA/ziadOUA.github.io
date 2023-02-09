@@ -1,3 +1,9 @@
+# *09/02/2023* Hotfix #1
+
+- Fixed a problem with the mobile navigation bar
+- Fixed some timings not being correct
+- Optimized a little bit `themeToggle.js`
+
 # *09/02/2023* #1
 
 - Added the theme change button on the mobile navigation panel
