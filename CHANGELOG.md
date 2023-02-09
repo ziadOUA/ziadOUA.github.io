@@ -1,3 +1,13 @@
+# *09/02/2023* #1
+
+- Added the theme change button on the mobile navigation panel
+- Animated the mobile navigation panel
+- Added an overlay on the body when the mobile navigation panel is opened
+- Made the body un-scrollable when the mobile navigation panel is opened
+- Fixed some accessibility issues
+- Made the mobile navigation bar hide itself when the mobile navigation panel is open
+- Optimized some JavaScript
+
 # *08/01/2023* #2
 
 - Blocked scrolling when navigation panel is opened
