@@ -6,7 +6,7 @@
     width: 2rem;
     background: linear-gradient(135deg, var(--cursor), var(--tertiary-40));
     border-radius: 50%;
-    z-index: 3;
+    z-index: 5;
     position: fixed;
     pointer-events: none;
     transform: translate(-50%, -50%);

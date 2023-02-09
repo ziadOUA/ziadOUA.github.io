@@ -1,5 +1,7 @@
 const pageContentWrapper = document.querySelector('.page-content-wrapper');
 
+const overlay = document.querySelector('.overlay');
+
 const homeIcon = document.querySelector("#home-icon");
 const mobileHomeIcon = document.querySelector("#mobile-home-icon");
 const reposIcon = document.querySelector("#repos-icon");
@@ -15,6 +17,7 @@ const reposContent = document.querySelector('#repos-page')
 const infoContent = document.querySelector("#info-page")
 const contactContent = document.querySelector("#contact-page")
 
+const mobileNavBar = document.querySelector('.navbar-mobile-wrapper')
 const mobileNavPanel = document.querySelector(".mobile-panel-wrapper")
 
 if (localStorage.getItem('page-section') === null){
@@ -92,7 +95,7 @@ function contactUnselectedStyling() {
 }
 
 function homeSelected() {
-    if (homeIcon.className === "icon-container" | homeIcon.className === "mobile-icon-container") {
+    if (homeIcon.className === "icon-container") {
         homeSelectedStyling();
         infoUnselectedStyling();
         reposUnselectedStyling();
@@ -102,7 +105,7 @@ function homeSelected() {
 }
 
 function reposSelected() {
-    if (reposIcon.className === "icon-container" | reposIcon.className === "mobile-icon-container") {
+    if (reposIcon.className === "icon-container") {
         reposSelectedStyling();
         homeUnselectedStyling();
         infoUnselectedStyling();
@@ -112,7 +115,7 @@ function reposSelected() {
 }
 
 function infoSelected() {
-    if (infoIcon.className === "icon-container" | infoIcon.className === "mobile-icon-container") {
+    if (infoIcon.className === "icon-container") {
         infoSelectedStyling();
         homeUnselectedStyling();
         reposUnselectedStyling();
@@ -122,7 +125,7 @@ function infoSelected() {
 }
 
 function contactSelected() {
-    if (contactIcon.className === "icon-container" | contactIcon.className === "mobile-icon-container") {
+    if (contactIcon.className === "icon-container") {
         contactSelectedStyling();
         homeUnselectedStyling();
         reposUnselectedStyling();
@@ -135,12 +138,20 @@ function openNavPanel() {
     if (mobileNavPanel.className === "mobile-panel-wrapper") {
         mobileNavPanel.classList.add("visible");
         pageContentWrapper.classList.add("no-scroll");
+        overlay.classList.remove("hidden");
+        mobileNavBar.classList.add("hiding");
+        setTimeout(() => { mobileNavBar.className = "navbar-mobile-wrapper hidden" }, 200);
     }
 }
 
 function closeNavPanel() {
     if (mobileNavPanel.className === "mobile-panel-wrapper visible") {
-        mobileNavPanel.classList.remove("visible");
+        mobileNavPanel.className = "mobile-panel-wrapper hiding"
+        setTimeout(() => { mobileNavPanel.className = "mobile-panel-wrapper" }, 200);
         pageContentWrapper.classList.remove("no-scroll");
+        overlay.classList.add("hiding");
+        setTimeout(() => { overlay.className = "overlay hidden" }, 200);
+        mobileNavBar.classList.remove("hidden");
+        setTimeout(() => { mobileNavBar.className = "navbar-mobile-wrapper visible" }, 200);
     }
 }

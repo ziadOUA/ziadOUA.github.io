@@ -35,7 +35,11 @@
     }
 
     .mobile-panel-wrapper.visible {
-        display: block;
+        display: flex;
+    }
+
+    .overlay {
+        display: block !important;
     }
 
     .statusbar-wrapper,

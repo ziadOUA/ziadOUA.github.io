@@ -19,6 +19,7 @@
     </head>
 
     <body style="opacity: 0;" onload="bodyLoaded()">
+        <div class="overlay hidden" onclick="closeNavPanel()"></div>
         <div class="cursor"></div>
         <div class="super-wrapper">
             <nav class="navbar-wrapper">
@@ -59,7 +60,7 @@
                 </div>
             </nav>
 
-            <div class="navbar-mobile-wrapper" id="navbar-mobile">
+            <div class="navbar-mobile-wrapper visible" id="navbar-mobile">
                 <a class="hamburger-menu-wrapper" onclick="openNavPanel()">
                     <span class="material-symbols-rounded">menu</span>
                 </a>
@@ -69,9 +70,9 @@
                 </a>
             </div>
             
-            <div class="mobile-panel-wrapper">
+            <nav class="mobile-panel-wrapper">
                 <div class="close-menu-wrapper">
-                    <a class="close-menu-button" onclick="closeNavPanel()">
+                    <a class="close-menu-button" tabindex="0" onclick="closeNavPanel()" onkeydown="if(event.key === 'Enter'){closeNavPanel()}">
                         <span class="material-symbols-rounded">menu_open</span>
                     </a>
                 </div>
@@ -97,7 +98,12 @@
                         <div class="mobile-label">Contact</div>
                     </a>
                 </div>
-            </div>
+
+                <a class="mobile-change-theme"  onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
+                    <span id="mobile-theme-icon" class="material-symbols-rounded" id="theme-icon">dark_mode</span>
+                    <div class="mobile-change-theme-label">Switch to dark mode</div>
+                </a>
+            </nav>
 
             <div class="statusbar-wrapper">
                 <div class="statusbar-elements-container">

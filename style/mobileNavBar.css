@@ -10,6 +10,19 @@
     backdrop-filter: blur(10px);
     padding: 0.5rem 0 0.5rem 1rem;
     z-index: 2;
+    animation-name: top-to-bottom;
+    animation-duration: 200ms;
+}
+
+.navbar-mobile-wrapper.hiding {
+    animation-name: bottom-to-top;
+    animation-duration: 200ms;
+}
+
+    /* ANIMATION LOADING FIX */
+
+.navbar-mobile-wrapper.visible {
+    animation: 0ms;
 }
 
 /* HAMBURGER MENU */
@@ -81,12 +94,21 @@
 
 .mobile-panel-wrapper {
     display: none;
+    flex-direction: column;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     width: 32rem;
     height: 100vh;
     background-color: var(--navgroup-bg);
     border-radius: 0 3rem 3rem 0;
+    animation-name: left-to-right;
+    animation-duration: 300ms;
+}
+
+.mobile-panel-wrapper.hiding {
+    display: flex;
+    animation-name: right-to-left;
+    animation-duration: 300ms;
 }
 
 .mobile-panel-contents {
@@ -110,7 +132,7 @@
 
     /* LABEL */
 
-.mobile-label {
+.mobile-label{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 2.4rem;
 }
@@ -129,4 +151,31 @@
 
 .selected .mobile-label {
     color: var(--on-selected-navgroup);
+}
+
+    /* THEME CHANGE BUTTON */
+
+.mobile-change-theme {
+    height: 4rem;
+    width: fit-content;
+    border-radius: 100vh;
+    justify-content: center;
+    margin-inline: auto;
+    padding: 0.2rem 1.5rem;
+    margin-top: auto;
+    margin-bottom: 7.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mobile-change-theme .material-symbols-rounded {
+    font-size: 2.5rem;
+    color: var(--on-navgroup);
+}
+
+.mobile-change-theme-label {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    color: var(--on-navgroup);
 }

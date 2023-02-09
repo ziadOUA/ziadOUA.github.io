@@ -73,7 +73,8 @@
 @media(pointer: fine) {
     .icon-container:not(.selected) > a:hover,
     .change-theme:hover,
-    .mobile-icon-container:not(.selected):hover {
+    .mobile-icon-container:not(.selected):hover,
+    .mobile-change-theme:hover {
         background: var(--hover-navgroup);
     }
 
@@ -82,7 +83,8 @@
         font-variation-settings: 'wght' 800, 'GRAD' 0, 'opsz' 48;
     }
 
-    .change-theme:hover .material-symbols-rounded {
+    .change-theme:hover .material-symbols-rounded,
+    .mobile-change-theme:hover .material-symbols-rounded {
         font-variation-settings: 'FILL' 1;
     }
 }
