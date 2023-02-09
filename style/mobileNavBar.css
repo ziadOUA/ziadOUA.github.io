@@ -102,13 +102,13 @@
     background-color: var(--navgroup-bg);
     border-radius: 0 3rem 3rem 0;
     animation-name: left-to-right;
-    animation-duration: 300ms;
+    animation-duration: 200ms;
 }
 
 .mobile-panel-wrapper.hiding {
     display: flex;
     animation-name: right-to-left;
-    animation-duration: 300ms;
+    animation-duration: 200ms;
 }
 
 .mobile-panel-contents {

@@ -139,7 +139,7 @@ function openNavPanel() {
         mobileNavPanel.classList.add("visible");
         pageContentWrapper.classList.add("no-scroll");
         overlay.classList.remove("hidden");
-        mobileNavBar.classList.add("hiding");
+        mobileNavBar.className = "navbar-mobile-wrapper hiding"
         setTimeout(() => { mobileNavBar.className = "navbar-mobile-wrapper hidden" }, 200);
     }
 }
