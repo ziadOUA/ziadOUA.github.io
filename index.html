@@ -61,13 +61,23 @@
             </nav>
 
             <div class="navbar-mobile-wrapper visible" id="navbar-mobile">
-                <a class="hamburger-menu-wrapper" onclick="openNavPanel()">
-                    <span class="material-symbols-rounded">menu</span>
-                </a>
-                <a class="header-wrapper" onclick="homeSelected()">
-                    <img class="header-logo" alt="Profile image" src="https://avatars.githubusercontent.com/u/111606433?v=4">
-                    <p class="header-text">My Portfolio</p>
-                </a>
+                <div class="navbar-mobile-elements">
+                    <div class="navbar-mobile-navigation">
+                        <a class="hamburger-menu-wrapper" onclick="openNavPanel()">
+                            <span class="material-symbols-rounded">menu</span>
+                        </a>
+                        <a class="header-wrapper" onclick="homeSelected()">
+                            <img class="header-logo" alt="Profile image" src="https://avatars.githubusercontent.com/u/111606433?v=4">
+                            <p class="header-text">My Portfolio</p>
+                        </a>
+                    </div>
+
+                    <div class="navbar-mobile-change-theme">
+                        <a class="mobile-change-theme"  onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
+                            <span id="mobile-theme-icon" class="material-symbols-rounded">dark_mode</span>
+                        </a>
+                    </div>
+                </div>
             </div>
             
             <nav class="mobile-panel-wrapper">
@@ -98,11 +108,6 @@
                         <div class="mobile-label">Contact</div>
                     </a>
                 </div>
-
-                <a class="mobile-change-theme"  onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
-                    <span id="mobile-theme-icon" class="material-symbols-rounded">dark_mode</span>
-                    <div class="mobile-change-theme-label">Switch to dark mode</div>
-                </a>
             </nav>
 
             <div class="statusbar-wrapper">
@@ -111,7 +116,7 @@
                         <div class="clock">CLOCK</div>
                     </div>
                     <div class="name-wrapper">
-                        <div class="name">CURRENT_PAGE</div>
+                        <div class="name">Home</div>
                     </div>
                 </div>
                 <div class="statusbar-elements-container">

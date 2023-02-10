@@ -3,19 +3,16 @@ const favicon32x32 = document.querySelector('link[sizes="32x32"]')
 
 const themeIcon = document.querySelector("#theme-icon")
 const mobileThemeIcon = document.querySelector("#mobile-theme-icon")
-const mobileThemeLabel = document.querySelector(".mobile-change-theme-label")
 
 function lightTheme() {
     themeIcon.textContent = "dark_mode";
     mobileThemeIcon.textContent = "dark_mode";
-    mobileThemeLabel.textContent = "Switch to dark mode";
     document.documentElement.setAttribute('theme', 'light');
 }
 
 function darkTheme() {
     themeIcon.textContent = "light_mode";
     mobileThemeIcon.textContent = "light_mode";
-    mobileThemeLabel.textContent = "Switch to light mode";
     document.documentElement.setAttribute('theme', 'dark');
 }
 

@@ -73,8 +73,7 @@
 @media(pointer: fine) {
     .icon-container:not(.selected) > a:hover,
     .change-theme:hover,
-    .mobile-icon-container:not(.selected):hover,
-    .mobile-change-theme:hover {
+    .mobile-icon-container:not(.selected):hover {
         background: var(--hover-navgroup);
     }
 

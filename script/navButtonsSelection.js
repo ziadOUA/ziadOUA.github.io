@@ -22,6 +22,7 @@ const mobileNavPanel = document.querySelector(".mobile-panel-wrapper")
 
 if (localStorage.getItem('page-section') === null){
     localStorage.setItem('page-section', 'home');
+    topHeader.innerHTML = 'Home';
 }
 
 let sectionOnLoad = localStorage.getItem("page-section");

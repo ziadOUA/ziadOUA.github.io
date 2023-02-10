@@ -3,12 +3,10 @@
 .navbar-mobile-wrapper {
     display: none;
     position: fixed;
-    gap: 0.5rem;
-    height: 5rem;
+    height: 6rem;
     width: 100%;
     background-color: var(--mobile-navbar-bg);
     backdrop-filter: blur(10px);
-    padding: 0.5rem 0 0.5rem 1rem;
     z-index: 2;
     animation-name: top-to-bottom;
     animation-duration: 200ms;
@@ -17,6 +15,23 @@
 .navbar-mobile-wrapper.hiding {
     animation-name: bottom-to-top;
     animation-duration: 200ms;
+}
+
+.navbar-mobile-elements {
+    margin: 0.5rem 0 0.5rem 1rem;
+    display: flex;
+    width: 100%;
+}
+
+.navbar-mobile-navigation {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-mobile-change-theme {
+    margin-left: auto;
+    margin-right: 1rem;
 }
 
     /* ANIMATION LOADING FIX */
@@ -73,7 +88,8 @@
 @media(pointer: fine) {
     .hamburger-menu-wrapper:hover,
     .header-wrapper:hover, 
-    .close-menu-button:hover {
+    .close-menu-button:hover,
+    .mobile-change-theme:hover {
         background-color: var(--transparent-grey);
     }
 
@@ -160,22 +176,15 @@
     width: fit-content;
     border-radius: 100vh;
     justify-content: center;
-    margin-inline: auto;
-    padding: 0.2rem 1.5rem;
-    margin-top: auto;
-    margin-bottom: 7.5rem;
+    width: 5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
+    height: 5rem;
+    float: right;
+
 }
 
 .mobile-change-theme .material-symbols-rounded {
-    font-size: 2.5rem;
-    color: var(--on-navgroup);
-}
-
-.mobile-change-theme-label {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 1.5rem;
     color: var(--on-navgroup);
 }
