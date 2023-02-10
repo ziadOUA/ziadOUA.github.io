@@ -1,3 +1,9 @@
+# *10/02/2023* #1
+
+- Moved the change theme button to the mobile navigation bar
+- Changed the timing of the hover animation for the featured projects
+- Other CSS optimizations
+
 # *09/02/2023* Hotfix #1
 
 - Fixed a problem with the mobile navigation bar
