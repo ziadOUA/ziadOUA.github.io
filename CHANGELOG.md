@@ -1,3 +1,7 @@
+# *10/02/2023* Hotfix #1
+
+- Reverted back to the original animation for the featured projects
+
 # *10/02/2023* #1
 
 - Moved the change theme button to the mobile navigation bar
