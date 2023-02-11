@@ -1,59 +1,59 @@
 /* STATUSBAR MAIN CONTAINER */
 
 .statusbar-wrapper {
-    height: 9rem;
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    overflow: hidden;
     background-color: var(--navgroup-bg);
+    display: flex;
+    height: 9rem;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
     z-index: 2;
 }
 
 /* STATUSBAR STYLING */
 
 .statusbar-elements-container {
-    display: flex;
     align-content: center;
+    display: flex;
     height: 9rem;
 }
 
 /* CLOCK */
 
 .clock-wrapper {
+    align-content: center;
     display: flex;
     justify-content: center;
-    align-content: center;
-    width: 9rem;
     margin-right: 2rem;
+    width: 9rem;
 }
 
 .clock {
     color: var(--on-navgroup);
-    margin-top: 2rem;
-    font-size: 3.2rem;
     font-family: 'JetBrains Mono', monospace;
-    line-height: 0.9;
+    font-size: 3.2rem;
     font-weight: 800;
+    line-height: 0.9;
+    margin-top: 2rem;
     text-align: center;
 }
 
 /* NAME */
 
 .name-wrapper {
-    width: fit-content;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     margin-right: 2rem;
+    width: fit-content;
 }
 
 .name {
     color: var(--on-navgroup);
-    font-size: 3.5rem;
     font-family: 'Lexend Zetta', sans-serif;
+    font-size: 3.5rem;
     font-weight: 200;
     letter-spacing: -0.2rem;
 }
@@ -61,16 +61,16 @@
 /* DATE */
 
 .date-wrapper {
-    width: fit-content;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: 3rem;
+    width: fit-content;
 }
 
 .date {
     color: var(--on-navgroup);
-    font-size: 2rem;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
 }

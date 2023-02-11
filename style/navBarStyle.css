@@ -1,15 +1,15 @@
 /* NAVBAR MAIN CONTAINER */
 
 .navbar-wrapper {
-    width: 9rem;
-    height: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    flex-direction: column;
-    overflow: hidden;
     background-color: var(--navgroup-bg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    width: 9rem;
 }
 
 /* NAVBAR STYLING */
@@ -17,30 +17,30 @@
 .navbar-elements-container {
     display: flex;
     flex-direction: column;
-    width: 9rem;
     gap: 2rem;
-    margin-top: 10rem;
     margin-bottom: auto;
+    margin-top: 10rem;
+    width: 9rem;
 }
 
 /* NAVBAR ICONS STYLING */
 
 .icon-container {
+    align-content: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
     gap: 0.2rem;
 }
 
 .icon-container > a {
-    width: 5.6rem;
-    height: 3.2rem;
-    display: flex;
-    justify-content: center;
-    border-radius: 100vw;
-    position: relative;
     align-items: center;
+    border-radius: 100vw;
+    display: flex;
+    height: 3.2rem;
+    justify-content: center;
+    position: relative;
+    width: 5.6rem;
 }
 
 .material-symbols-rounded {
@@ -62,9 +62,9 @@
 /* LABEL */
 
 .label {
-    text-align: center;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.4rem;
+    text-align: center;
     user-select: none;
 }
 
@@ -100,14 +100,14 @@
 
 .change-theme-wrapper {
     height: 5.6rem;
-    width: 5.6rem;
     margin-bottom: 1.7rem;
+    width: 5.6rem;
 }
 
 .change-theme {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100%;
     border-radius: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
 }

@@ -1,16 +1,16 @@
 /* CURSOR DEFAULT */
 
 .cursor {
-    display: none;
-    height: 2rem;
-    width: 2rem;
     background: linear-gradient(135deg, var(--cursor), var(--tertiary-40));
     border-radius: 50%;
-    z-index: 5;
-    position: fixed;
+    display: none;
+    height: 2rem;
     pointer-events: none;
+    position: fixed;
     transform: translate(-50%, -50%);
     transition: height 200ms ease, width 200ms ease, background-color 200ms;
+    width: 2rem;
+    z-index: 5;
 }
 
 /* CURSOR HOVER */

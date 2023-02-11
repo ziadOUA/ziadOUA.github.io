@@ -48,8 +48,8 @@
     }
 
     .page-content-wrapper {
-        padding: 6rem 0 0 0 !important;
         height: calc(100vh - 6rem);
+        padding: 6rem 0 0 0 !important;
     }
 
     .inverted-topright-corner,
@@ -66,6 +66,7 @@
 
 @media (max-width: 640px) {
     .page {
+        margin-bottom: 3rem;
         padding: 0;
     }
 
@@ -74,11 +75,18 @@
     }
 
     .title-wrapper {
-        height: 20rem;
         border-radius: 0;
+        height: 20rem;
     }
 
     .title-elements {
         font-size: .6rem;
+    }
+
+    .featured-projects-title {
+        font-size: 3.4rem;
+        margin: 0;
+        text-align: center;
+        width: auto;
     }
 }
