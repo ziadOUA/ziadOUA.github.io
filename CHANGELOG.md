@@ -1,3 +1,9 @@
+# *11/02/2023* #1
+
+- Improved accessibility
+- Divided the fonts imports for better code understanding
+- Sorted all CSS properties
+
 # *10/02/2023* Hotfix #1
 
 - Reverted back to the original animation for the featured projects
