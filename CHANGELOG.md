@@ -3,6 +3,7 @@
 - Improved accessibility
 - Divided the fonts imports for better code understanding
 - Sorted all CSS properties
+- Changed the font family of `.featured-projects-title` to Lexend Deca
 
 # *10/02/2023* Hotfix #1
 
