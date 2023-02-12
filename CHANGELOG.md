@@ -1,3 +1,10 @@
+# *12/02/2023* #2
+
+- Added a "squiggly" separator
+- Fixed a transition problem with the repos
+- Sorted the CSS properties of `repoListStyle.css` 
+- Added comments to structure the fonts in the `<style>` tags
+
 # *12/02/2023* #1
 
 - Added the repositories list
