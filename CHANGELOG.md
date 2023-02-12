@@ -1,3 +1,11 @@
+# *12/02/2023* #1
+
+- Added the repositories list
+- Renamed `loadFix.js` to `onLoad.js`
+- Added the color `tertiary-30`
+- Animated the border-radius of the featured projects cards
+- Optimized various CSS & JS files
+
 # *11/02/2023* #1
 
 - Improved accessibility
