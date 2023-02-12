@@ -4,6 +4,7 @@
 - Fixed a transition problem with the repos
 - Sorted the CSS properties of `repoListStyle.css` 
 - Added comments to structure the fonts in the `<style>` tags
+- Changed the weight oh the `.featured-projects-title` to 600
 
 # *12/02/2023* #1
 
