@@ -78,6 +78,15 @@ html {
     opacity: 0;
 }
 
+/* "SQUIGGLY" SEPARATOR */
+
+.squiggly-separator {
+    height: 11px;
+    margin-top: 7.5rem;
+    max-width: 671px;
+    width: 80%;
+}
+
 /* GLOBAL STYLES */
 
     /* NO USERSELECT */
