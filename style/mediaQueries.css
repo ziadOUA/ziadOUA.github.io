@@ -1,5 +1,6 @@
 @media (max-width: 1300px) {
-    .featured-projects {
+    .featured-projects,
+    .repos-list-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -59,7 +60,8 @@
 }
 
 @media (max-width: 720px) {
-    .featured-projects {
+    .featured-projects,
+    .repos-list-wrapper {
         grid-template-columns: 1fr;
     }
 }

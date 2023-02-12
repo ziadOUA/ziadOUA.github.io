@@ -123,7 +123,8 @@
     display: grid;
     grid-auto-rows: min-content auto max-content;
     height: 100%;
-    transition: 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
+                border-radius 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 .featured-project-illustration {
@@ -150,7 +151,8 @@
 
 .featured-project-name {
     font-size: var(--font-size-m);
-    transition: text-shadow 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+    transition: color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
+                text-shadow 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 .featured-project-desc {
@@ -169,6 +171,7 @@
 .featured-project-link {
     fill: var(--featured-project-links);
     height: 3rem;
+    transition: fill 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 .featured-project-links-wrapper a {
@@ -178,6 +181,7 @@
 @media(pointer: fine) {
     .featured-project-element:hover {
         background-color: var(--featured-project-card-hover);
+        border-radius: var(--border-radius-xl);
     }
 
     .featured-project-element:hover .featured-project-informations > * {

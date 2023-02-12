@@ -24,6 +24,7 @@
     --tertiary-90: #EEDCFF;
     --tertiary-80: #D4BDEE;
     --tertiary-40: #695681;
+    --tertiary-30: #4F4061;
     --tertiary-20: #3A2850;
     --tertiary-10: #241339;
 
@@ -46,6 +47,11 @@
     --featured-project-links: var(--neutral-variant-10);
     --featured-project-link-hover: var(--primary-20);
     --featured-project-infos-hover: var(--primary-20);
+    --repo-card: var(--neutral-variant-90);
+    --repo-card-hover: var(--tertiary-80);
+    --repo-card-links: var(--neutral-variant-10);
+    --repo-card-links-hover: var(--tertiary-20);
+    --repo-card-infos-hover: var(--tertiary-20);
     --mobile-navbar-bg: var(--transparent-white);
     --on-navgroup: var(--neutral-variant-10);
     --selected-navgroup: var(--primary-80);
@@ -68,6 +74,11 @@
     --featured-project-links: var(--neutral-variant-90);
     --featured-project-link-hover: var(--primary-90);
     --featured-project-infos-hover: var(--primary-90);
+    --repo-card: var(--neutral-variant-30);
+    --repo-card-hover: var(--tertiary-30);
+    --repo-card-links: var(--neutral-variant-90);
+    --repo-card-links-hover: var(--tertiary-90);
+    --repo-card-infos-hover: var(--tertiary-90);
     --mobile-navbar-bg: var(--transparent-black);
     --on-navgroup: var(--neutral-variant-90);
     --selected-navgroup: var(--primary-30);
