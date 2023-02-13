@@ -1,3 +1,8 @@
+# *13/02/2023* #1
+
+- Made the page scroll back to the top when the user navigates to another section
+- Optimized `listRepo.js`
+
 # *12/02/2023* #2
 
 - Added a "squiggly" separator
