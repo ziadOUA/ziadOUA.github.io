@@ -43,6 +43,10 @@ if (sectionOnLoad === "contact") {
     contactSelected();
 }
 
+function scrollTop() {
+    document.querySelector(".page-content-wrapper").scrollTop = 0;
+}
+
 function homeSelectedStyling() {
     homeIcon.classList.add("selected");
     mobileHomeIcon.classList.add("selected");
@@ -97,6 +101,7 @@ function contactUnselectedStyling() {
 
 function homeSelected() {
     if (homeIcon.className === "icon-container") {
+        scrollTop();
         homeSelectedStyling();
         infoUnselectedStyling();
         reposUnselectedStyling();
@@ -107,6 +112,7 @@ function homeSelected() {
 
 function reposSelected() {
     if (reposIcon.className === "icon-container") {
+        scrollTop();
         reposSelectedStyling();
         homeUnselectedStyling();
         infoUnselectedStyling();
@@ -117,6 +123,7 @@ function reposSelected() {
 
 function infoSelected() {
     if (infoIcon.className === "icon-container") {
+        scrollTop();
         infoSelectedStyling();
         homeUnselectedStyling();
         reposUnselectedStyling();
@@ -127,6 +134,7 @@ function infoSelected() {
 
 function contactSelected() {
     if (contactIcon.className === "icon-container") {
+        scrollTop();
         contactSelectedStyling();
         homeUnselectedStyling();
         reposUnselectedStyling();
