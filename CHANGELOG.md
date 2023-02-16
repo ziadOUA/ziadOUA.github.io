@@ -1,3 +1,9 @@
+# *16/02/2023* #1
+
+- Changed all the title background images
+- CHanged the page title colors
+- Added colors from the neutral palette
+
 # *13/02/2023* #1
 
 - Made the page scroll back to the top when the user navigates to another section
