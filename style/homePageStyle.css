@@ -1,5 +1,10 @@
 /* TITLE */
 
+.home .title-elements {
+    background-color: var(--home-title-bg);
+    color: var(--home-on-title);
+}
+
     /* LOGO */
 
 .logo-wrapper {
@@ -45,9 +50,7 @@
 .title-elements {
     align-content: center;
     align-items: center;
-    background-color: var(--title-bg);
     border-radius: 100vw;
-    color: var(--on-title);
     display: grid;
     font-size: 1rem;
     grid-auto-rows: min-content;

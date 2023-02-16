@@ -28,6 +28,10 @@
     --tertiary-20: #3A2850;
     --tertiary-10: #241339;
 
+    --neutral-90: #E2E2E5;
+    --neutral-30: #45474A;
+    --neutral-10: #1A1C1E;
+
     --neutral-variant-90: #DEE3EB;
     --neutral-variant-80: #C2C7CF;
     --neutral-variant-40: #595F66;
@@ -57,9 +61,14 @@
     --selected-navgroup: var(--primary-80);
     --on-selected-navgroup: var(--primary-20);
     --hover-navgroup: var(--neutral-variant-80);
-    --title-bg: var(--secondary-90);
-    --on-title: var(--secondary-10);
-    --progress-bar: var(--tertiary-10);
+    --home-title-bg: var(--primary-90);
+    --home-on-title: var(--primary-10);
+    --repos-title-bg: var(--tertiary-90);
+    --repos-on-title: var(--tertiary-10);
+    --info-title-bg: var(--secondary-90);
+    --info-on-title: var(--secondary-10);
+    --contact-title-bg: var(--neutral-90);
+    --contact-on-title: var(--neutral-10);
 }
 
 /* DARK THEME */
@@ -84,10 +93,14 @@
     --selected-navgroup: var(--primary-30);
     --on-selected-navgroup: var(--primary-90);
     --hover-navgroup: var(--neutral-variant-40);
-    --title-bg: var(--secondary-30);
-    --on-title: var(--secondary-90);
-    --progress-bar-bg: var(--tertiary-20);
-    --progress-bar: var(--tertiary-80);
+    --home-title-bg: var(--primary-30);
+    --home-on-title: var(--primary-90);
+    --repos-title-bg: var(--tertiary-30);
+    --repos-on-title: var(--tertiary-90);
+    --info-title-bg: var(--secondary-30);
+    --info-on-title: var(--secondary-90);
+    --contact-title-bg: var(--neutral-30);
+    --contact-on-title: var(--neutral-90);
 }
 
 /* INVERTED ROUNDED CORNERS MASKS */

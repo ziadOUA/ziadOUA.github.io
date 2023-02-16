@@ -6,8 +6,9 @@
 @import "statusBarStyle.css";
 @import "pageContentStyle.css";
 @import "homePageStyle.css";
-@import "repoListStyle.css";
-@import "repoListStyle.css";
+@import "reposPageStyle.css";
+@import "infoPageStyle.css";
+@import "contactPageStyle.css";
 @import "mediaQueries.css";
 
 html {

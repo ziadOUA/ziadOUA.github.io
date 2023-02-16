@@ -1,0 +1,6 @@
+/* TITLE */
+
+.info .title-elements {
+    background-color: var(--info-title-bg);
+    color: var(--info-on-title);
+}

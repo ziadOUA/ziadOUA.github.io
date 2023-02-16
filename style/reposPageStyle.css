@@ -1,3 +1,10 @@
+/* TITLE */
+
+.repos .title-elements {
+    background-color: var(--repos-title-bg);
+    color: var(--repos-on-title);
+}
+
 /* REPO LIST WRAPPER */
 
 .repos-list-wrapper {
