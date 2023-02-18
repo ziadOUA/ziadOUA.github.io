@@ -1,3 +1,9 @@
+# *18/02/2023* #1
+
+- Made the `.title-wrapper` take up all the available vertical space
+- Added GitHub and DevTo badges
+- Sorted the CSS properties again, using the box-model convention
+
 # *16/02/2023* #1
 
 - Changed all the title background images
