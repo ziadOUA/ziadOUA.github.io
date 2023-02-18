@@ -17,6 +17,7 @@
     --primary-10: #001D32;
 
     --secondary-90: #D0E5FB;
+    --secondary-80: #B5C9DF;
     --secondary-40: #4D6073;
     --secondary-30: #36495B;
     --secondary-10: #081D2D;
@@ -29,6 +30,7 @@
     --tertiary-10: #241339;
 
     --neutral-90: #E2E2E5;
+    --neutral-80: #C6C6C9;
     --neutral-30: #45474A;
     --neutral-10: #1A1C1E;
 
@@ -37,6 +39,18 @@
     --neutral-variant-40: #595F66;
     --neutral-variant-30: #42474E;
     --neutral-variant-10: #171C22;
+}
+
+:root {
+    --github-bg-light: #5F5E5E;
+    --github-bg-dark: #C8C6C5;
+    --github-text-light: #FFF;
+    --github-text-dark: #303030;
+
+    --devto-bg-light: #5E5E5E;
+    --devto-bg-dark: #C6C6C6;
+    --devto-text-light: #FFF;
+    --devto-text-dark: #303030;
 }
 
 /* LIGHT THEME */
@@ -71,6 +85,13 @@
     --contact-on-title: var(--neutral-10);
 }
 
+[theme="light"] {
+    --github-bg: var(--github-bg-light);
+    --github-text: var(--github-text-light);
+    --devto-bg: var(--devto-bg-light);
+    --devto-text: var(--devto-text-light)
+}
+
 /* DARK THEME */
 
 [theme="dark"] {
@@ -103,6 +124,13 @@
     --contact-on-title: var(--neutral-90);
 }
 
+[theme="dark"] {
+    --github-bg: var(--github-bg-dark);
+    --github-text: var(--github-text-dark);
+    --devto-bg: var(--devto-bg-dark);
+    --devto-text: var(--devto-text-dark)
+}
+
 /* INVERTED ROUNDED CORNERS MASKS */
 
 :root {
@@ -129,6 +157,5 @@
     --font-size-m: 2.2rem;
     --font-size-l: 4.8rem;
     --font-size-xl: 6.4rem;
-
     --font-size-header: 1.8rem;
 }

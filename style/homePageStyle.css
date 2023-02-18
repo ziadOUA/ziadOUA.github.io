@@ -1,30 +1,30 @@
 /* TITLE */
 
 .home .title-elements {
-    background-color: var(--home-title-bg);
     color: var(--home-on-title);
+    background-color: var(--home-title-bg);
 }
 
     /* LOGO */
 
 .logo-wrapper {
-    animation-name: logo-mask-rotation;
+    width: 15rem;
     height: 15rem;
+    overflow: hidden;
+    animation-name: logo-mask-rotation;
     mask: var(--logo-mask);
     -webkit-mask: var(--logo-mask);
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     mask-size: contain;
     -webkit-mask-size: contain;
-    overflow: hidden;
-    width: 15rem;
 }
 
 .logo {
+    width: 15rem;
+    height: 15rem;
     animation-name: logo-rotate-negation;
     border-radius: 50%;
-    height: 15rem;
-    width: 15rem;
 }
 
 .logo-wrapper,
@@ -48,15 +48,15 @@
     /* TITLE ELEMENTS BG */
 
 .title-elements {
+    display: grid;
+    width: fit-content;
+    height: 15rem;
+    font-size: 1rem;
     align-content: center;
     align-items: center;
     border-radius: 100vw;
-    display: grid;
-    font-size: 1rem;
     grid-auto-rows: min-content;
-    height: 15rem;
     justify-content: center;
-    width: fit-content;
 }
 
     /* TITLE TEXT */
@@ -65,16 +65,16 @@
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 5em;
     font-weight: 900;
+    text-align: center;
     margin-block: 0;
     margin-inline: 5rem;
-    text-align: center;
 }
 
     /* SUBTITLE */
 
 .subtitle {
-    margin-block: 0;
     text-align: center;
+    margin-block: 0;
 }
 
 .subtitle:nth-child(n + 1) {
@@ -85,71 +85,71 @@
 }
 
 .subtitle:nth-child(n + 3) {
+    margin-top: .7rem;
     font-family: 'JetBrains Mono', monospace;
     font-size: 2em;
     font-weight: 800;
-    margin-top: .7rem;
 }
 
 /* FEATURED PROJECTS */
 
 .featured-projects-wrapper {
-    margin-top: 7.5rem;
-    max-width: 120rem;
     width: 100%;
+    max-width: 120rem;
+    margin-top: 7.5rem;
 }
 
 .featured-projects-title {
-    color: var(--standard-text);
+    margin-left: 3rem;
     font-family: 'Lexend Deca', sans-serif;
     font-size: var(--font-size-l);
-    font-weight: 600;
     line-height: 1;
-    margin-left: 3rem;
+    font-weight: 600;
+    color: var(--standard-text);
 }
 
 .featured-projects {
     --min: 32rem;
     display: grid;
+    margin-top: 2rem;
     gap: 1rem;
     grid-auto-flow: row;
     grid-auto-rows: minmax(var(--min), auto);
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 2rem;
 }
 
     /* FEATURED PROJECTS ELEMENTS */
 
 .featured-project-element {
+    display: grid;
+    height: 100%;
     background-color: var(--featured-project-card);
     border-radius: var(--border-radius-l);
-    display: grid;
     grid-auto-rows: min-content auto max-content;
-    height: 100%;
     transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
                 border-radius 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
 .featured-project-illustration {
-    background-position: center;
+    height: 20rem;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-radius: inherit;
-    height: 20rem;
 }
 
 .featured-project-informations {
-    align-self: start;
     display: grid;
-    gap: .8rem;
     margin: 2rem;
+    align-self: start;
+    gap: .8rem;
 }
 
 .featured-project-name,
 .featured-project-desc {
-    color: var(--standard-text);
-    font-family: 'Lexend Deca', sans-serif;
     margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--standard-text);
 }
 
 .featured-project-name {
@@ -166,14 +166,14 @@
 .featured-project-links-wrapper {
     display: flex;
     float: bottom;
-    gap: 1rem;
     height: 3rem;
     margin: 2rem;
+    gap: 1rem;
 }
 
 .featured-project-link {
-    fill: var(--featured-project-links);
     height: 3rem;
+    fill: var(--featured-project-links);
     transition: fill 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 

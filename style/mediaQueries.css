@@ -91,4 +91,8 @@
         text-align: center;
         width: auto;
     }
+
+    .badge-title {
+        display: none;
+    }
 }

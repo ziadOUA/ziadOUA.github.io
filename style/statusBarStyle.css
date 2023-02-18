@@ -1,76 +1,76 @@
 /* STATUSBAR MAIN CONTAINER */
 
 .statusbar-wrapper {
-    align-items: center;
-    background-color: var(--navgroup-bg);
     display: flex;
-    height: 9rem;
-    justify-content: space-between;
-    overflow: hidden;
     position: fixed;
-    width: 100%;
     z-index: 2;
+    width: 100%;
+    height: 9rem;
+    overflow: hidden;
+    background-color: var(--navgroup-bg);
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* STATUSBAR STYLING */
 
 .statusbar-elements-container {
-    align-content: center;
     display: flex;
     height: 9rem;
+    align-content: center;
 }
 
 /* CLOCK */
 
 .clock-wrapper {
-    align-content: center;
     display: flex;
-    justify-content: center;
-    margin-right: 2rem;
     width: 9rem;
+    margin-right: 2rem;
+    align-content: center;
+    justify-content: center;
 }
 
 .clock {
-    color: var(--on-navgroup);
+    margin-top: 2rem;
     font-family: 'JetBrains Mono', monospace;
     font-size: 3.2rem;
-    font-weight: 800;
     line-height: 0.9;
-    margin-top: 2rem;
+    font-weight: 800;
     text-align: center;
+    color: var(--on-navgroup);
 }
 
 /* NAME */
 
 .name-wrapper {
-    align-items: center;
     display: flex;
-    justify-content: center;
-    margin-right: 2rem;
     width: fit-content;
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .name {
-    color: var(--on-navgroup);
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 3.5rem;
     font-weight: 200;
     letter-spacing: -0.2rem;
+    color: var(--on-navgroup);
 }
 
 /* DATE */
 
 .date-wrapper {
-    align-items: center;
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: 3rem;
     width: fit-content;
+    margin-right: 3rem;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .date {
-    color: var(--on-navgroup);
     font-family: 'JetBrains Mono', monospace;
     font-size: 2rem;
+    color: var(--on-navgroup);
 }

@@ -1,28 +1,28 @@
 /* TITLE */
 
 .repos .title-elements {
-    background-color: var(--repos-title-bg);
     color: var(--repos-on-title);
+    background-color: var(--repos-title-bg);
 }
 
 /* REPO LIST WRAPPER */
 
 .repos-list-wrapper {
     display: grid;
+    width: 100%;
+    max-width: 120rem;
+    margin-top: 7.5rem;
     gap: 1rem;
     grid-auto-rows: auto;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 7.5rem;
-    max-width: 120rem;
-    width: 100%;
 }
 
 /* REPO ITEM WRAPPER */
 
 .repo-wrapper {
+    height: 100%;
     background-color: var(--repo-card);
     border-radius: var(--border-radius-l);
-    height: 100%;
     transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
                 border-radius 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000),
                 outline-width 50ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
@@ -32,10 +32,10 @@
 
 .repo-infos {
     display: grid;
-    gap: 1.5rem;
-    grid-auto-rows: min-content auto max-content;
     height: calc(100% - 4rem);
     margin: 2rem;
+    gap: 1.5rem;
+    grid-auto-rows: min-content auto max-content;
 }
 
 .repo-infos > * {
@@ -45,32 +45,32 @@
     /* TITLE */
 
 .repo-title {
-    color: var(--standard-text);
+    width: fit-content;
     font-family: 'Lexend Zetta', sans-serif;
     font-size: var(--font-size-m);
     font-weight: 600;
+    color: var(--standard-text);
     transition: color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
                 text-shadow 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
-    width: fit-content;
 }
 
     /* DESCRIPTION */
 
 .repo-desc {
-    color: var(--standard-text);
+    height: fit-content;
     font-family: 'Lexend Deca', sans-serif;
     font-size: var(--font-size-s);
-    height: fit-content;
+    color: var(--standard-text);
 }
 
     /* METADATA (LANGUAGE, STARS, FORKS) */
 
 .repo-metadata {
-    align-items: center;
     display: flex;
-    gap: .5rem;
     height: fit-content;
     line-height: 1;
+    align-items: center;
+    gap: .5rem;
 }
 
 .repo-metadata .material-symbols-rounded {
@@ -79,9 +79,9 @@
 
 .metadata-text,
 .repo-language {
+    margin: 0;
     font-family: 'Jetbrains Mono', sans-serif;
     font-size: var(--font-size-s);
-    margin: 0;
 }
 
 .repo-language:empty {

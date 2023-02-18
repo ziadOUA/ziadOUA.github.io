@@ -22,8 +22,8 @@ body {
 }
 
 a:link, .mobile-label:link {
-    cursor: none;
     text-decoration: none !important;
+    cursor: none;
 }
 
 body,
@@ -38,9 +38,9 @@ html {
 
 .super-wrapper {
     display: flex;
-    flex-direction: column;
-    height: fit-content;
     width: 100%;
+    height: fit-content;
+    flex-direction: column;
 }
 
 .hidden {
@@ -57,16 +57,16 @@ html {
 /* OVERLAY */
 
 .overlay {
-    animation-duration: 200ms;
-    animation-name: fade-in;
-    background-color: rgba(0, 0, 0, 0.5);
     display: none;
-    height: 100%;
-    left: 0;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
     z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation-duration: 200ms;
+    animation-name: fade-in;
 }
 
 .overlay.hiding {
@@ -77,15 +77,6 @@ html {
 .overlay.hidden {
     display: none;
     opacity: 0;
-}
-
-/* "SQUIGGLY" SEPARATOR */
-
-.squiggly-separator {
-    height: 11px;
-    margin-top: 7.5rem;
-    max-width: 671px;
-    width: 80%;
 }
 
 /* GLOBAL STYLES */
