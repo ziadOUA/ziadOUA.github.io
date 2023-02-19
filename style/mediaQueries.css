@@ -92,7 +92,13 @@
         width: auto;
     }
 
-    .badge-title {
-        display: none;
+    .badges-wrapper {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .home .squiggly-separator,
+    .badges-wrapper {
+        margin-top: 0.525rem;
     }
 }
