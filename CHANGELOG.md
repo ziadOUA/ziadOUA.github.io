@@ -1,3 +1,7 @@
+# *19/02/2023* #1
+
+- Made the "Discover my..." appear even on mobiles
+
 # *18/02/2023* #1
 
 - Made the `.title-wrapper` take up all the available vertical space
