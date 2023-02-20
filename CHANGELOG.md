@@ -1,3 +1,8 @@
+# *20/02/2023* #1
+
+- Changed the favicon for a different design
+- Added configuration files for apple, android and windows phone shortcuts
+
 # *19/02/2023* #1
 
 - Made the "Discover my..." appear even on mobiles
