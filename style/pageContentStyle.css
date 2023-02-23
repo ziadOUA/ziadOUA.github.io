@@ -2,6 +2,7 @@
 
 .page-content-wrapper {
     height: calc(100vh - 9em);
+    height: calc(100svh - 9em);
     padding: 9em 0 0 9em;
     -ms-overflow-style: none;
     overflow-y: scroll;
@@ -17,8 +18,8 @@
 .title-wrapper {
     display: flex;
     width: 100%;
-    height: calc(100dvh - 110px);
     height: calc(100vh - 110px);
+    height: calc(100svh - 110px);
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;

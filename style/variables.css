@@ -42,15 +42,15 @@
 }
 
 :root {
-    --github-bg-light: #5F5E5E;
-    --github-bg-dark: #C8C6C5;
-    --github-text-light: #FFF;
-    --github-text-dark: #303030;
+    --github-bg-dark: #5F5E5E;
+    --github-bg-light: #E4E2E1;
+    --github-text-dark: #FFF;
+    --github-text-light: #1B1C1C;
 
-    --devto-bg-light: #5E5E5E;
-    --devto-bg-dark: #C6C6C6;
-    --devto-text-light: #FFF;
-    --devto-text-dark: #303030;
+    --devto-bg-dark: #5E5E5E;
+    --devto-bg-light: #E2E2E2;
+    --devto-text-dark: #FFF;
+    --devto-text-light: #1B1C1C;
 }
 
 /* LIGHT THEME */

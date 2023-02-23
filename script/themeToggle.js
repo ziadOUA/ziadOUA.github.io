@@ -1,6 +1,3 @@
-const favicon16x16 = document.querySelector('link[sizes="16x16"]')
-const favicon32x32 = document.querySelector('link[sizes="32x32"]')
-
 const themeIcon = document.querySelector("#theme-icon")
 const mobileThemeIcon = document.querySelector("#mobile-theme-icon")
 
@@ -34,17 +31,6 @@ function darkTheme() {
     }
     if (onPageLoad === "dark_mode") {
         darkTheme()
-    }
-})();
-
-(function () {
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        favicon32x32.setAttribute('href', 'res/favicon/light/favicon-32x32.png')
-        favicon16x16.setAttribute('href', 'res/favicon/light/favicon-16x16.png')
-    }
-    else {
-        favicon32x32.setAttribute('href', 'res/favicon/dark/favicon-32x32.png')
-        favicon16x16.setAttribute('href', 'res/favicon/dark/favicon-16x16.png')
     }
 })();
 
