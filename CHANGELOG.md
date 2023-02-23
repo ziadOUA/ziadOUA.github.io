@@ -1,3 +1,9 @@
+# *23/02/2023* #1
+
+- Fixed the size of `.title-wrapper` on mobile devices
+- Fixed the favicon not showing
+- Other fixes
+
 # *20/02/2023* #1
 
 - Changed the favicon for a different design
