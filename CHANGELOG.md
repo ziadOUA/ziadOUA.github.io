@@ -1,3 +1,7 @@
+# *25/02/2023* #1
+
+- Improved the accessibility of the website
+
 # *23/02/2023* #1
 
 - Fixed the size of `.title-wrapper` on mobile devices
