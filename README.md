@@ -1,6 +1,6 @@
 # ziadOUA.github.io
 
-<img src="https://i.postimg.cc/BQvx0t07/PORTFOLIO.png">
+<img src="https://i.postimg.cc/rpp18mxw/PORTFOLIO.png">
 
 Portfolio website under development
 
