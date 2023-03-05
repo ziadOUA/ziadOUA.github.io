@@ -1,3 +1,9 @@
+# *05/03/2023* #1
+
+- Updated the website's palette to the new colors
+- Changed the profile picture
+- Switched the "Home" and "Information" backgrounds 
+
 # *25/02/2023* #1
 
 - Improved the accessibility of the website
