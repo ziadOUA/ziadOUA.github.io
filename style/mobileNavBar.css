@@ -72,10 +72,6 @@
 .header-logo {
     width: 3rem;
     height: 3rem;
-    mask: var(--logo-mask);
-    -webkit-mask: var(--logo-mask);
-    mask-size: contain;
-    -webkit-mask-size: contain;
 }
 
 .header-text {
