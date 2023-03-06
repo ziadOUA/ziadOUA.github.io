@@ -1,3 +1,10 @@
+# *06/03/2023* #1
+
+- Updated the project images
+- Removed the mask of the header image in the mobile navigation bar
+- Improved the website's loading speed
+- Corrected a small typo
+
 # *05/03/2023* #1
 
 - Updated the website's palette to the new colors
