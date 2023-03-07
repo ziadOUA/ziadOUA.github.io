@@ -1,3 +1,9 @@
+# *07/03/2023* #1
+
+- Added the `noscript` tags if Javascript is disabled
+- Added the "error" palette of colors
+- Updated the colors of the `msapplication-TileColor` and safari pinned tab
+
 # *06/03/2023* #1
 
 - Updated the project images
