@@ -11,6 +11,10 @@ a:hover {
     cursor: pointer !important;
 }
 
+.noscript-avatar-wrapper {
+    border-radius: 50%;
+}
+
 .noscript-avatar {
     height: 19rem;
     border-radius: 50%;
