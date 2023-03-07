@@ -1,3 +1,7 @@
+# *07/03/2023* Hotfix #1
+
+- Rounded the wrapper of the avatar in the `noscript` tag
+
 # *07/03/2023* #1
 
 - Added the `noscript` tags if Javascript is disabled
