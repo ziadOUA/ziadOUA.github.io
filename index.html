@@ -12,9 +12,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="res/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="res/favicon/favicon-16x16.png">
         <link rel="manifest" href="config/site.webmanifest">
-        <link rel="mask-icon" href="res/favicon/safari-pinned-tab.svg" color="#001d32">
+        <link rel="mask-icon" href="res/favicon/safari-pinned-tab.svg" color="#001F2A">
         <link rel="shortcut icon" href="res/favicon/favicon.ico">
-        <meta name="msapplication-TileColor" content="#001d32">
+        <meta name="msapplication-TileColor" content="#001F2A">
         <meta name="msapplication-config" content="config/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
         <!-- Material Symbols Rounded -->
@@ -29,6 +29,22 @@
         <script defer src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
         <script defer type="module" src="script/listRepo.js"></script>
     </head>
+
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="style/noScriptStyle.css">
+        <div class="noscript-wrapper">
+            <a aria-label="Check my GitHub profile" href="https://github.com/ziadOUA">
+                <img alt="Github profile picture of ziadOUA" class="noscript-avatar" src="https://avatars.githubusercontent.com/u/111606433?v=4">
+            </a>
+            <div class="noscript-error-wrapper">
+                <img alt="Warning icon" class="noscript-warning-img" src="res/img/noScript.svg">
+                <div class="noscript-text-wrapper">
+                    <h1>Please activate Javascript</h1>
+                    <p>Here are some <a aria-label="Follow this link to learn more about activating JavaScript" href="https://enable-javascript.com">instructions on how to enable JavaScript in your web browser</a>.</p>
+                </div>
+            </div>
+        </div>
+    </noscript>
 
     <body style="opacity: 0;" onload="bodyLoaded()">
         <div class="overlay hidden" onclick="closeNavPanel()"></div>
