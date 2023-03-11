@@ -2,14 +2,14 @@ const themeIcon = document.querySelector("#theme-icon")
 const mobileThemeIcon = document.querySelector("#mobile-theme-icon")
 
 function lightTheme() {
-    themeIcon.textContent = "dark_mode";
-    mobileThemeIcon.textContent = "dark_mode";
+    themeIcon.innerHTML = "&#xe901;";
+    mobileThemeIcon.innerHTML = "&#xe901;";
     document.documentElement.setAttribute('theme', 'light');
 }
 
 function darkTheme() {
-    themeIcon.textContent = "light_mode";
-    mobileThemeIcon.textContent = "light_mode";
+    themeIcon.innerHTML = "&#xe908;";
+    mobileThemeIcon.innerHTML = "&#xe908;";
     document.documentElement.setAttribute('theme', 'dark');
 }
 
