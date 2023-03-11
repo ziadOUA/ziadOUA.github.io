@@ -1,3 +1,10 @@
+#  *11/03/2023* #1
+
+- Divided the total transfer size by **3** :
+  - Replaced the Material Symbols pack by a modified version (**565x** lighter) only containing the icons actually used in the website 
+- Changed the colors of the favicon
+- Fixed an issue where the chrome bookmark icon path was not correct in `site.webmanifest`
+
 # *07/03/2023* Hotfix #1
 
 - Rounded the wrapper of the avatar in the `noscript` tag
