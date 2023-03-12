@@ -1,3 +1,10 @@
+# *12/03/2023* #1
+
+- The change theme icon now fills when hovered
+- The navigation bar icons now also fill when selected
+- Fixed the cursor animation when hovering clickable elements
+- Small accessibility improvements & JS optimizations
+
 #  *11/03/2023* #1
 
 - Divided the total transfer size by **3** :
