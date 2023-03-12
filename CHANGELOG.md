@@ -1,3 +1,7 @@
+# *12/03/2023* #2
+
+- Removed useless strings in `navButtonsSelection.js`
+
 # *12/03/2023* #1
 
 - The change theme icon now fills when hovered
