@@ -21,7 +21,7 @@ function genRepo(user) {
                     repo_language = "";
                 }
 
-                $(".repos-list-wrapper").append('<a class="repo-wrapper" href="' + repo_url + '" target="_blank"><div class="repo-infos"><p class="repo-title">' + repo_name + '</p><p class="repo-desc">' + repo_description + '</p><div class="repo-metadata"><p class="repo-language">' + repo_language + '</p><span class="material-symbols-rounded">&#xe90e;</span><p class="metadata-text">' + repo_stars + '</p><span class="material-symbols-rounded">&#xe903;</span><p class="metadata-text">' + repo_forks + '</p></div></div></a>');
+                $(".repos-list-wrapper").append('<a class="clickable repo-wrapper" href="' + repo_url + '" target="_blank"><div class="repo-infos"><p class="repo-title">' + repo_name + '</p><p class="repo-desc">' + repo_description + '</p><div class="repo-metadata"><p class="repo-language">' + repo_language + '</p><span class="material-symbols-rounded">&#xe90e;</span><p class="metadata-text">' + repo_stars + '</p><span class="material-symbols-rounded">&#xe903;</span><p class="metadata-text">' + repo_forks + '</p></div></div></a>');
             }
         });
 }

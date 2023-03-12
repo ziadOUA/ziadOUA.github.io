@@ -1,5 +1,5 @@
 let cursor = document.querySelector('.cursor');
-let a = document.querySelectorAll('a');
+let a = document.querySelectorAll('.clickable');
 
 document.addEventListener('mousemove', function(e){
     let x = e.clientX;

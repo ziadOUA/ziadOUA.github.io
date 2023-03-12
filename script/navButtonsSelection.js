@@ -10,15 +10,25 @@ const infoIcon = document.querySelector("#info-icon");
 const mobileInfoIcon = document.querySelector("#mobile-info-icon");
 const contactIcon = document.querySelector("#contact-icon");
 const mobileContactIcon = document.querySelector("#mobile-contact-icon");
-const topHeader = document.querySelector('.name')
 
-const homeContent = document.querySelector("#home-page")
-const reposContent = document.querySelector('#repos-page')
-const infoContent = document.querySelector("#info-page")
-const contactContent = document.querySelector("#contact-page")
+const homeFontIcon = document.querySelector("#home-font-icon");
+const mobileHomeFontIcon = document.querySelector("#mobile-home-font-icon");
+const reposFontIcon = document.querySelector("#repos-font-icon");
+const mobileReposFontIcon = document.querySelector("#mobile-repos-font-icon");
+const infoFontIcon = document.querySelector("#info-font-icon");
+const mobileInfoFontIcon = document.querySelector("#mobile-info-font-icon");
+const contactFontIcon = document.querySelector("#contact-font-icon");
+const mobileContactFontIcon = document.querySelector("#mobile-contact-font-icon");
 
-const mobileNavBar = document.querySelector('.navbar-mobile-wrapper')
-const mobileNavPanel = document.querySelector(".mobile-panel-wrapper")
+const topHeader = document.querySelector('.name');
+
+const homeContent = document.querySelector("#home-page");
+const reposContent = document.querySelector('#repos-page');
+const infoContent = document.querySelector("#info-page");
+const contactContent = document.querySelector("#contact-page");
+
+const mobileNavBar = document.querySelector('.navbar-mobile-wrapper');
+const mobileNavPanel = document.querySelector(".mobile-panel-wrapper");
 
 if (localStorage.getItem('page-section') === null){
     localStorage.setItem('page-section', 'home');
@@ -29,6 +39,8 @@ let sectionOnLoad = localStorage.getItem("page-section");
 
 if (sectionOnLoad === "home") {
     homeSelected();
+    homeFontIcon.innerHTML = "&#xe905;";
+    mobileHomeFontIcon.innerHTML = "&#xe905;";
 }
 
 if (sectionOnLoad === "repos") {
@@ -37,10 +49,14 @@ if (sectionOnLoad === "repos") {
 
 if (sectionOnLoad === "info") {
     infoSelected();
+    infoFontIcon.innerHTML = "&#xe907;";
+    mobileInfoFontIcon.innerHTML = "&#xe907;";
 }
 
 if (sectionOnLoad === "contact") {
     contactSelected();
+    contactFontIcon.innerHTML = "&#xe90b;";
+    mobileContactFontIcon.innerHTML = "&#xe90b;";
 }
 
 function scrollTop() {
@@ -51,6 +67,8 @@ function homeSelectedStyling() {
     homeIcon.classList.add("selected");
     mobileHomeIcon.classList.add("selected");
     homeContent.className = "home page visible";
+    homeFontIcon.innerHTML = "&#xe905;";
+    mobileHomeFontIcon.innerHTML = "&#xe905;";
     topHeader.innerHTML = 'Home';
 }
 
@@ -58,12 +76,16 @@ function homeUnselectedStyling() {
     homeIcon.classList.remove("selected");
     mobileHomeIcon.classList.remove("selected");
     homeContent.className = "home page hidden";
+    homeFontIcon.innerHTML = "&#xe904;"
+    mobileHomeFontIcon.innerHTML = "&#xe904;"
 }
 
 function infoSelectedStyling() {
     infoIcon.classList.add("selected");
     mobileInfoIcon.classList.add("selected");
     infoContent.className = "info page visible";
+    infoFontIcon.innerHTML = "&#xe907;";
+    mobileInfoFontIcon.innerHTML = "&#xe907;";
     topHeader.innerHTML = 'Informations';
 }
 
@@ -71,6 +93,8 @@ function infoUnselectedStyling() {
     infoIcon.classList.remove("selected");
     mobileInfoIcon.classList.remove("selected");
     infoContent.className = "info page hidden";
+    infoFontIcon.innerHTML = "&#xe906;";
+    mobileInfoFontIcon.innerHTML = "&#xe906;";
 }
 
 function reposSelectedStyling() {
@@ -90,6 +114,8 @@ function contactSelectedStyling() {
     contactIcon.classList.add("selected");
     mobileContactIcon.classList.add("selected");
     contactContent.className = "contact page visible";
+    contactFontIcon.innerHTML = "&#xe90b;";
+    mobileContactFontIcon.innerHTML = "&#xe90b;";
     topHeader.innerHTML = 'Contact';
 }
 
@@ -97,6 +123,8 @@ function contactUnselectedStyling() {
     contactIcon.classList.remove("selected");
     mobileContactIcon.classList.remove("selected");
     contactContent.className = "contact page hidden";
+    contactFontIcon.innerHTML = "&#xe90a;";
+    mobileContactFontIcon.innerHTML = "&#xe90a;";
 }
 
 function homeSelected() {

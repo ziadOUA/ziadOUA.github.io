@@ -1,6 +1,8 @@
 const themeIcon = document.querySelector("#theme-icon")
 const mobileThemeIcon = document.querySelector("#mobile-theme-icon")
 
+let theme = localStorage.getItem("theme");
+
 function lightTheme() {
     themeIcon.innerHTML = "&#xe901;";
     mobileThemeIcon.innerHTML = "&#xe901;";
@@ -11,6 +13,30 @@ function darkTheme() {
     themeIcon.innerHTML = "&#xe908;";
     mobileThemeIcon.innerHTML = "&#xe908;";
     document.documentElement.setAttribute('theme', 'dark');
+}
+
+function themeToggleHover() {
+    if (theme && theme === "dark_mode") {
+        themeIcon.innerHTML = "&#xe909;";
+        mobileThemeIcon.innerHTML = "&#xe909;";
+    }
+
+    if (theme && theme === "light_mode") {
+        themeIcon.innerHTML = "&#xe902;";
+        mobileThemeIcon.innerHTML = "&#xe902;";
+    }
+}
+
+function themeToggleLeave() {
+    if (theme && theme === "dark_mode") {
+        themeIcon.innerHTML = "&#xe908;";
+        mobileThemeIcon.innerHTML = "&#xe908;";
+    }
+
+    if (theme && theme === "light_mode") {
+        themeIcon.innerHTML = "&#xe901;";
+        mobileThemeIcon.innerHTML = "&#xe901;";
+    }
 }
 
 (function() {
@@ -35,7 +61,6 @@ function darkTheme() {
 })();
 
 function themeToggle() {
-    let theme = localStorage.getItem("theme");
     if (theme && theme === "dark_mode") {
         localStorage.setItem("theme", "light_mode");
         lightTheme()
