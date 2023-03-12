@@ -4,8 +4,6 @@ const overlay = document.querySelector('.overlay');
 
 const homeIcon = document.querySelector("#home-icon");
 const mobileHomeIcon = document.querySelector("#mobile-home-icon");
-const reposIcon = document.querySelector("#repos-icon");
-const mobileReposIcon = document.querySelector("#mobile-repos-icon");
 const infoIcon = document.querySelector("#info-icon");
 const mobileInfoIcon = document.querySelector("#mobile-info-icon");
 const contactIcon = document.querySelector("#contact-icon");
