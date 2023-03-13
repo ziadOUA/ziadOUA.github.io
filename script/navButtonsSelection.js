@@ -4,6 +4,8 @@ const overlay = document.querySelector('.overlay');
 
 const homeIcon = document.querySelector("#home-icon");
 const mobileHomeIcon = document.querySelector("#mobile-home-icon");
+const reposIcon = document.querySelector("#repos-icon");
+const mobileReposIcon = document.querySelector("#mobile-repos-icon");
 const infoIcon = document.querySelector("#info-icon");
 const mobileInfoIcon = document.querySelector("#mobile-info-icon");
 const contactIcon = document.querySelector("#contact-icon");
@@ -11,8 +13,6 @@ const mobileContactIcon = document.querySelector("#mobile-contact-icon");
 
 const homeFontIcon = document.querySelector("#home-font-icon");
 const mobileHomeFontIcon = document.querySelector("#mobile-home-font-icon");
-const reposFontIcon = document.querySelector("#repos-font-icon");
-const mobileReposFontIcon = document.querySelector("#mobile-repos-font-icon");
 const infoFontIcon = document.querySelector("#info-font-icon");
 const mobileInfoFontIcon = document.querySelector("#mobile-info-font-icon");
 const contactFontIcon = document.querySelector("#contact-font-icon");
