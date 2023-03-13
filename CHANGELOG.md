@@ -1,3 +1,7 @@
+# *13/03/2023* Hotfix #1
+
+- Fixed an issue with the navigation bar
+
 # *12/03/2023* #2
 
 - Removed useless strings in `navButtonsSelection.js`
