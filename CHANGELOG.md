@@ -1,3 +1,9 @@
+# *15/03/2023* #1
+
+- Added background color to titles before the image loads
+- Fixed the theme changing
+- Fixed the cursor behavior on some elements
+
 # *13/03/2023* Hotfix #1
 
 - Fixed an issue with the navigation bar
