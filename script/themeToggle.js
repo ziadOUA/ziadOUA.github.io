@@ -61,6 +61,7 @@ function themeToggleLeave() {
 })();
 
 function themeToggle() {
+    let theme = localStorage.getItem("theme");
     if (theme && theme === "dark_mode") {
         localStorage.setItem("theme", "light_mode");
         lightTheme()
