@@ -1,3 +1,7 @@
+# *17/03/2023* Hotfix #1
+
+- Second attempt to fix the theme changing problem
+
 # *15/03/2023* #1
 
 - Added background color to titles before the image loads
