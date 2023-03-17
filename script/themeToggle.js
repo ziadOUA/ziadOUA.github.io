@@ -16,6 +16,7 @@ function darkTheme() {
 }
 
 function themeToggleHover() {
+    let theme = localStorage.getItem("theme");
     if (theme && theme === "dark_mode") {
         themeIcon.innerHTML = "&#xe909;";
         mobileThemeIcon.innerHTML = "&#xe909;";
@@ -28,6 +29,7 @@ function themeToggleHover() {
 }
 
 function themeToggleLeave() {
+    let theme = localStorage.getItem("theme");
     if (theme && theme === "dark_mode") {
         themeIcon.innerHTML = "&#xe908;";
         mobileThemeIcon.innerHTML = "&#xe908;";
