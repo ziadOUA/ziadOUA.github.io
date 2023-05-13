@@ -1,3 +1,15 @@
+# *13/05/2023* #1
+
+- Desktop navigation bar redesign :
+  - Removed the status bar on desktop
+    - Removed the "inverted corners"
+  - Moved the clock to the top of the navigation bar
+  - Changed the color and shape of the change theme button
+  - Vertically centered the navigation bar destinations
+  - Changed the color of the navigation destination background to `primary-90`
+    - Changed the color of the navigation destination icon to `primary-10`
+  - Reduced the height of the title background
+
 # *17/03/2023* Hotfix #1
 
 - Second attempt to fix the theme changing problem
