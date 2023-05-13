@@ -82,9 +82,11 @@
     --repo-card-infos-hover: var(--tertiary-20);
     --mobile-navbar-bg: var(--transparent-white);
     --on-navgroup: var(--neutral-variant-10);
-    --selected-navgroup: var(--primary-80);
-    --on-selected-navgroup: var(--primary-20);
-    --hover-navgroup: var(--neutral-variant-80);
+    --selected-navgroup: var(--primary-90);
+    --on-selected-navgroup: var(--primary-10);
+    --hover-navgroup: var(--neutral-variant-90);
+    --fab-bg: var(--tertiary-90);
+    --on-fab-bg: var(--tertiary-10);
     --home-title-bg: var(--primary-90);
     --home-on-title: var(--primary-10);
     --repos-title-bg: var(--tertiary-90);
@@ -108,7 +110,7 @@
     --standard-text: var(--white);
     --cursor: var(--tertiary-80);
     --page-bg: var(--black);
-    --navgroup-bg: var(--neutral-variant-30);
+    --navgroup-bg: rgba(0, 0, 0, 0);
     --featured-project-card: var(--neutral-variant-30);
     --featured-project-card-hover: var(--primary-30);
     --featured-project-links: var(--neutral-variant-90);
@@ -123,7 +125,9 @@
     --on-navgroup: var(--neutral-variant-90);
     --selected-navgroup: var(--primary-30);
     --on-selected-navgroup: var(--primary-90);
-    --hover-navgroup: var(--neutral-variant-40);
+    --hover-navgroup: var(--neutral-variant-30);
+    --fab-bg: var(--tertiary-30);
+    --on-fab-bg: var(--tertiary-90);
     --home-title-bg: var(--primary-30);
     --home-on-title: var(--primary-90);
     --repos-title-bg: var(--tertiary-30);

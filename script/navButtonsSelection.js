@@ -18,8 +18,6 @@ const mobileInfoFontIcon = document.querySelector("#mobile-info-font-icon");
 const contactFontIcon = document.querySelector("#contact-font-icon");
 const mobileContactFontIcon = document.querySelector("#mobile-contact-font-icon");
 
-const topHeader = document.querySelector('.name');
-
 const homeContent = document.querySelector("#home-page");
 const reposContent = document.querySelector('#repos-page');
 const infoContent = document.querySelector("#info-page");
@@ -27,11 +25,6 @@ const contactContent = document.querySelector("#contact-page");
 
 const mobileNavBar = document.querySelector('.navbar-mobile-wrapper');
 const mobileNavPanel = document.querySelector(".mobile-panel-wrapper");
-
-if (localStorage.getItem('page-section') === null){
-    localStorage.setItem('page-section', 'home');
-    topHeader.innerHTML = 'Home';
-}
 
 let sectionOnLoad = localStorage.getItem("page-section");
 
@@ -67,7 +60,6 @@ function homeSelectedStyling() {
     homeContent.className = "home page visible";
     homeFontIcon.innerHTML = "&#xe905;";
     mobileHomeFontIcon.innerHTML = "&#xe905;";
-    topHeader.innerHTML = 'Home';
 }
 
 function homeUnselectedStyling() {
@@ -84,7 +76,6 @@ function infoSelectedStyling() {
     infoContent.className = "info page visible";
     infoFontIcon.innerHTML = "&#xe907;";
     mobileInfoFontIcon.innerHTML = "&#xe907;";
-    topHeader.innerHTML = 'Informations';
 }
 
 function infoUnselectedStyling() {
@@ -99,7 +90,6 @@ function reposSelectedStyling() {
     reposIcon.classList.add("selected");
     mobileReposIcon.classList.add("selected");
     reposContent.className = "repos page visible";
-    topHeader.innerHTML = 'Repositories';
 }
 
 function reposUnselectedStyling() {
@@ -114,7 +104,6 @@ function contactSelectedStyling() {
     contactContent.className = "contact page visible";
     contactFontIcon.innerHTML = "&#xe90b;";
     mobileContactFontIcon.innerHTML = "&#xe90b;";
-    topHeader.innerHTML = 'Contact';
 }
 
 function contactUnselectedStyling() {

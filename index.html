@@ -51,6 +51,18 @@
         <div class="cursor"></div>
         <div class="super-wrapper">
             <nav class="navbar-wrapper">
+                <div class="navbar-top-elements-container">
+                    <div class="clock-wrapper">
+                        <div class="clock">CLOCK</div>
+                    </div>
+                    
+                    <div class="change-theme-wrapper">
+                        <div aria-label="Change the theme" tabindex="0" class="clickable change-theme" onmouseover="themeToggleHover()" onmouseleave="themeToggleLeave()" onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
+                            <span class="material-symbols-rounded" id="theme-icon">&#xe901;</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="navbar-elements-container">
                     <div class="icon-container selected" id="home-icon">
                         <div tabindex="0" class="clickable home-icon" onclick="homeSelected()" onkeydown="if(event.key === 'Enter'){homeSelected()}">
@@ -78,12 +90,6 @@
                             <span id="contact-font-icon" class="material-symbols-rounded">&#xe90a;</span>
                         </div>
                         <div class="label">Contact</div>
-                    </div>
-                </div>
-
-                <div class="change-theme-wrapper">
-                    <div aria-label="Change the theme" tabindex="0" class="clickable change-theme" onmouseover="themeToggleHover()" onmouseleave="themeToggleLeave()" onclick="themeToggle()" onkeydown="if(event.key === 'Enter'){themeToggle()}">
-                        <span class="material-symbols-rounded" id="theme-icon">&#xe901;</span>
                     </div>
                 </div>
             </nav>
@@ -137,25 +143,6 @@
                     </div>
                 </div>
             </nav>
-
-            <div class="statusbar-wrapper">
-                <div class="statusbar-elements-container">
-                    <div class="clock-wrapper">
-                        <div class="clock">CLOCK</div>
-                    </div>
-                    <div class="name-wrapper">
-                        <div class="name">Home</div>
-                    </div>
-                </div>
-                <div class="statusbar-elements-container">
-                    <div class="date-wrapper">
-                        <div class="date">DATE</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="inverted-topleft-corner"></div>
-            <div class="inverted-topright-corner"></div>
 
             <div class="page-content-wrapper">
                 <div class="home page visible" id="home-page">
