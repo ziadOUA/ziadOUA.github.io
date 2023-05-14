@@ -1,6 +1,6 @@
 /* TITLE */
 
 .contact .title-elements {
-    color: var(--contact-on-title);
-    background-color: var(--contact-title-bg);
+    background-color: var(--md-sys-color-surface-variant);
+    color: var(--md-sys-color-on-surface-variant);
 }

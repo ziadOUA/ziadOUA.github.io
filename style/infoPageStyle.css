@@ -1,6 +1,6 @@
 /* TITLE */
 
 .info .title-elements {
-    color: var(--info-on-title);
-    background-color: var(--info-title-bg);
+    color: var(--md-sys-color-on-secondary-container);
+    background-color: var(--md-sys-color-secondary-container);
 }

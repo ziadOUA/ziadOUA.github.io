@@ -6,7 +6,7 @@
     z-index: 5;
     width: 2rem;
     height: 2rem;
-    background: linear-gradient(135deg, var(--cursor), var(--tertiary-40));
+    background: linear-gradient(135deg, var(--md-sys-color-primary), var(--md-sys-color-tertiary));
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);

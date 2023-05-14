@@ -1,5 +1,5 @@
 body {
-    background-color: var(--neutral-90);
+    background-color: var(--md-sys-color-surface-variant);
     opacity: 1 !important;
 }
 
@@ -33,7 +33,7 @@ a:hover {
 }
 
 .noscript-error-wrapper {
-    background-color: var(--error-80);
+    background-color: var(--md-ref-palette-error80);
     border-radius: 100vw 60rem 60rem 100vw;
     display: flex;
     gap: 2rem;
@@ -60,7 +60,7 @@ a:hover {
     font-weight: 600;
     margin-block: 0;
     color: var(--white);
-    background-color: var(--error-40);
+    background-color: var(--md-ref-palette-error40);
     border-radius: 100vw;
     padding: 1rem;
     text-align: center;
@@ -71,16 +71,16 @@ a:hover {
     font-size: 2rem;
     font-weight: 400;
     margin-block: 0;
-    color: var(--error-20);
+    color: var(--md-ref-palette-error20);
     text-align: justify;
 }
 
 .noscript-text-wrapper a {
     text-decoration: underline !important;
-    color: var(--error-30);
+    color: var(--md-ref-palette-error30);
 }
 
 .noscript-text-wrapper a:visited {
     text-decoration: underline !important;
-    color: var(--tertiary-30);
+    color: var(--md-ref-palette-tertiary30);
 }

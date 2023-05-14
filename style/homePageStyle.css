@@ -1,8 +1,8 @@
 /* TITLE */
 
 .home .title-elements {
-    color: var(--home-on-title);
-    background-color: var(--home-title-bg);
+    color: var(--md-sys-color-on-primary-container);
+    background-color: var(--md-sys-color-primary-container);
 }
 
     /* LOGO */
@@ -105,7 +105,7 @@
     font-size: var(--font-size-l);
     line-height: 1;
     font-weight: 600;
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
 }
 
 .featured-projects {
@@ -123,7 +123,7 @@
 .featured-project-element {
     display: grid;
     height: 100%;
-    background-color: var(--featured-project-card);
+    background-color: var(--md-sys-color-surface-variant);
     border-radius: var(--border-radius-l);
     grid-auto-rows: min-content auto max-content;
     transition: background-color 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000), 
@@ -149,7 +149,7 @@
 .featured-project-desc {
     margin: 0;
     font-family: 'Lexend Deca', sans-serif;
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
 }
 
 .featured-project-name {
@@ -173,7 +173,7 @@
 
 .featured-project-link {
     height: 3rem;
-    fill: var(--featured-project-links);
+    fill: var(--md-sys-color-on-surface-variant);
     transition: fill 200ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 
@@ -183,23 +183,23 @@
 
 @media(pointer: fine) {
     .featured-project-element:hover {
-        background-color: var(--featured-project-card-hover);
+        background-color: var(--md-sys-color-inverse-primary);
         border-radius: var(--border-radius-xl);
     }
 
     .featured-project-element:hover .featured-project-informations > * {
-        color: var(--featured-project-infos-hover);
+        color: var(--md-sys-color-on-primary-container);
     }
 
     .featured-project-element:hover .featured-project-name {
-        text-shadow: 0 0 .2rem var(--featured-project-infos-hover);
+        text-shadow: 0 0 .2rem var(--md-sys-color-on-primary-container);
     }
 
     .featured-project-element:hover .featured-project-link {
-        fill: var(--featured-project-link-hover);
+        fill: var(--md-sys-color-on-primary-container);
     }
 
     .featured-project-element:hover a {
-        outline-color: var(--featured-project-link-hover);
+        outline-color: var(--md-sys-color-on-primary-container);
     }
 }

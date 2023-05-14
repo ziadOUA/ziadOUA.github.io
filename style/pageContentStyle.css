@@ -47,30 +47,6 @@
     padding: 1rem 1rem 5rem;
 }
 
-/* INVERTED ROUNDED CORNERS */
-
-.inverted-topleft-corner,
-.inverted-topright-corner {
-    background-color: var(--navgroup-bg);
-    height: var(--border-radius-xl);
-    margin-top: 9rem;
-    position: fixed;
-    width: var(--border-radius-xl);
-    z-index: 2;
-}
-
-.inverted-topleft-corner {
-    -webkit-mask: var(--topleft-mask);
-    mask: var(--topleft-mask);
-}
-
-.inverted-topright-corner {
-    margin-left: auto;
-    -webkit-mask: var(--topright-mask);
-    mask: var(--topright-mask);
-    right: 0;
-}
-
 /* "SQUIGGLY" SEPARATOR */
 
 .squiggly-separator {
@@ -94,7 +70,7 @@
 }
 
 .badge-title {
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
     font-family: 'Jetbrains Mono', sans-serif;
     font-size: 2rem;
     font-weight: 400;

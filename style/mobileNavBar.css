@@ -50,7 +50,7 @@
 }
 
 .hamburger-menu-wrapper .material-symbols-rounded {
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
 }
 
 .header-wrapper {
@@ -78,7 +78,7 @@
     font-family: "Lexend Zetta", serif;
     font-size: var(--font-size-header);
     font-weight: 400;
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
 }
 
 @media(pointer: fine) {
@@ -110,7 +110,7 @@
     z-index: 3;
     width: 32rem;
     height: 100vh;
-    background-color: var(--navgroup-bg);
+    background-color: var(--md-sys-color-surface-variant);
     animation-duration: 200ms;
     animation-name: left-to-right;
     border-radius: 0 3rem 3rem 0;
@@ -158,11 +158,11 @@
 .mobile-icon-container .material-symbols-rounded,
 .mobile-label,
 .close-menu-button {
-    color: var(--standard-text);
+    color: var(--md-sys-color-on-background);
 }
 
 .selected .mobile-label {
-    color: var(--on-selected-navgroup);
+    color: var(--md-sys-color-on-primary-container);
 }
 
     /* THEME CHANGE BUTTON */
@@ -182,5 +182,5 @@
 }
 
 .mobile-change-theme .material-symbols-rounded {
-    color: var(--on-navgroup);
+    color: var(--md-sys-color-on-surface-variant);
 }
