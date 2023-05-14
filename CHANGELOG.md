@@ -1,3 +1,7 @@
+# *14/05/2023* #1
+
+- Changed the way color is implemented in the website
+
 # *13/05/2023* #1
 
 - Desktop navigation bar redesign :
