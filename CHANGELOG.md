@@ -1,6 +1,11 @@
+# *14/05/2023* Hotfix #1
+
+- Fixed the color of the separators
+
 # *14/05/2023* #1
 
 - Changed the way color is implemented in the website
+- Modified the color of the cursor
 
 # *13/05/2023* #1
 
