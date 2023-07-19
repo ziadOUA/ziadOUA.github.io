@@ -1,3 +1,7 @@
+# *19/07/2023* #1
+
+- Updated the featured projects
+
 # *14/05/2023* Hotfix #1
 
 - Fixed the color of the separators
